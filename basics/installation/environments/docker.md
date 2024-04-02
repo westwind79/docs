@@ -177,7 +177,7 @@ To stop it, run `docker compose down`
 #### Installation assistant and admin URLs
 
 {{% notice note %}}
-It is a grood practice to change `install/` and `admin/` directory names. 
+It is a good practice to change `install/` and `admin/` directory names. 
 
 To achieve this, specify the two following environment variables in your PrestaShop container declaration:
 
