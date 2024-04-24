@@ -68,6 +68,9 @@ server {
     # [EDIT] If you are using multiple languages.
     # rewrite ^/fr$ /fr/ redirect;
     # rewrite ^/fr/(.*) /$1;
+    # Watch out: if you encounter issues with a quick view or shopping cart, you might want to use a different rule:
+    # rewrite '^/((?!js|qq)[a-z]{2})/(.*)' /index.php?isolang=$1&$args last;
+    # see: https://github.com/PrestaShop/PrestaShop/issues/14921#issuecomment-948932833
 
     # Images.
     rewrite ^/(\d)(-[\w-]+)?/.+\.jpg$ /img/p/$1/$1$2.jpg last;
