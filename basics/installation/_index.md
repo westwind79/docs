@@ -138,6 +138,12 @@ Finally, flush privileges:
 > FLUSH PRIVILEGES;
 ```
 
+and exit the database connection:
+
+```bash
+> EXIT;
+```
+
 ### Prepare PrestaShop installation 
 
 #### Download PrestaShop
