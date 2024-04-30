@@ -21,7 +21,7 @@ There are a few ways of upgrading the PrestaShop store. This chapter provides in
 
 You can use provided `autoupgrade` module to upgrade your store to the newest version using web interface. You can read more about the module and how to use it [here]({{< ref "/8/basics/keeping-up-to-date/use-autoupgrade-module" >}}).
 
-## Upgrade assistant module - CLI method
+## Upgrade assistant module (formerly 1-click upgrade module) - CLI method
 
 Upgrade assistant module (autoupgrade) is fully accessible through `cli`. You can read all the details [here]({{< ref "/8/basics/keeping-up-to-date/upgrade-module/upgrade-cli" >}}).
 
@@ -32,9 +32,7 @@ Upgrade assistant module (autoupgrade) is fully accessible through `cli`. You ca
 
 Manual upgrade without `autoupgrade` module is not possible at the moment. We recommend using [cli]({{< ref "/8/basics/keeping-up-to-date/upgrade-module/upgrade-cli" >}})
 mechanism from the upgrade assistant module.
-{{% /notice %}} 
-
-This guide gives you the full control on the process. This one has been applied by PrestaShop for several major versions, and thus can be applied on very old shops.
+{{% /notice %}}
 
 ### Release download
 
@@ -58,14 +56,19 @@ On a Linux terminal, you can use the command \`unzip\`:
 unzip prestashop-upgrade.zip && unzip prestashop.zip
 ```
 
+If asked to overwrite the index.php file, answer yes.
 Once you have the folders like `classes/`, `modules/`, `themes/`, etc. you may go on the next step.
 
 ### Sample files cleanup
 
-Avoid overwrite the production resources (images, conf ...) with the default data. These folders can be removed from the new release:
+Avoid overwrite the production resources (images, conf ...) with the default data. These files and folders can be removed from the new release:
 
+- prestashop-upgrade.zip
+- prestashop.zip
 - img/
 - override/
+- install/
+- modules/
 
 {{% notice warning %}}
 All the other files present in the new release will overwrite the existing files. 
@@ -126,51 +129,56 @@ Once the files have been copied, your shop database is ready to be upgraded.
 Some web hosting providers gives you two user accounts to access your database. One with full privileges the other for using in scripts with limited rights. To be able to use this Database upgrade script you have to use the account with full privileges.
 {{% /notice %}}
 
-All the changes to apply have been defined in the `install` folder, running them can be done with a specific PHP script.
+The database migration scripts are stored in the `autoupgrade` module. If not present in your modules folder, download it and unzip it there.
 
-When you’re ready, run the file `upgrade/upgrade.php` from the `autoupgrade` module.
-
-This can be done with a browser, by reaching the address `http://<shop_domain>/modules/autoupgrade/upgrade/upgrade.php`, or from your `CLI`:
+Upgrading the database is a step of the process ran by the upgrade module. It can be independantly triggered from the command line even if the module is uninstalled:
 
 ```bash
-php modules/autoupgrade/upgrade/upgrade.php
+php modules/autoupgrade/cli-upgrade.php --dir=<path_to_the_admin_folder> --channel=private --action=upgradeDb
 ```
 
-In both cases, an XML log will be displayed. The result can be found in the attribute `result` of the first tag `<action>`:
+Example:
+```bash
+php modules/autoupgrade/cli-upgrade.php --dir=admin-dev --channel=private --action=upgradeDb
+```
 
-* `ok` if updates have been found and executed
-* `error` if something went wrong
-* `info` for next actions, displaying the details on the process
+The minimal store context will be loaded, and SQL requests will be triggered.
+
+SQL requests that encountered an error will be displayed on the log with additional details which can help you understand, fix the issue then re-execute the request manually on your database. In some cases, you may need to restore your database backup and start over.
+
+If successful, a command will be given to run the next step, but can be safely ignored as you did not trigger the whole upgrade process from the module.
 
 #### Execution log
 
-When the upgrade script found some upgrades to apply, the SQL queries run will be listed along their respective result.
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?><action result="ok" id="">
-<action result="info" id="1.7.0.5"><![CDATA[[OK] PHP 1.7.0.5 : /* PHP:ps_update_tabs(); */]]></action>
-<action result="info" id="1.7.0.5"><![CDATA[[OK] SQL 1.7.0.5 : ALTER TABLE `ps_currency` MODIFY `name` varchar(64) NOT NULL]]></action>
-<action result="info" id="1.7.1.0"><![CDATA[[OK] SQL 1.7.1.0 : SET SESSION sql_mode = '']]></action>
-<action result="info" id="1.7.1.0"><![CDATA[[OK] SQL 1.7.1.0 : SET NAMES 'utf8']]></action>
+```
+INFO - === Step upgradeDb
+INFO - Cleaning file cache
+INFO - Running opcache_reset
+INFO - Initializing required environment constants
+INFO - Checking version validity
+INFO - Checking connection to database
+INFO - Disabling all non native modules
+INFO - Updating database data and structure
+WARNING - 
+            <div class="upgradeDbError">
+            [WARNING] SQL 8.0.0
+            1060 in ALTER TABLE `ps_tab` ADD route_name VARCHAR(256) DEFAULT NULL: Duplicate column name 'route_name'</div>
+INFO - Running generic queries
+INFO - Database upgrade OK
+INFO - Upgrading languages
+INFO - Regenerating htaccess
+INFO - Cleaning XML files
+INFO - Keeping overrides in place
+INFO - Keeping current theme
+INFO - Cleaning file cache
+INFO - Running opcache_reset
+INFO - Database upgrade completed
+INFO - Database upgraded. Now upgrading your Addons modules...
+INFO - Restart requested. Please run the following command to continue your upgrade:
 [...]
 ```
 
-You can double check that each action is marked as “OK”. If not, additional details will be shown after the request, which can help you fix the issue and re-execute the request manually on your database. In some cases, you may need to restore your database backup and start over.
-
-#### Error codes
-
-An error code can also be displayed. Each code is related to a message described here:
-
-* Error #27: The shop is running a newer version than the content provided by the install folder.
-* Error #28: The shop is already at the version you try to upgrade to.
-* Error #29: Could not find the current version. Check your database parameters file and the database connection.
-* Error #31: Unable to find upgrade directory in the installation path, does the folder `install/upgrade/sql` exist and is not empty?
-* Error #32: No upgrade needs to be applied.
-* Error #33: Error while loading a SQL upgrade file. Check your permissions of the folder `install/upgrade/sql`.
-* Error #40: The version provided in the file `install/install_version.php` is invalid.
-* Error #43: Error while upgrading database schema using doctrine.
-* Error #44: Error while updating translations.
-* Error #45: Error while enabling theme.
 
 ### Cleanup
 
