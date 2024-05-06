@@ -11,6 +11,7 @@ Contributions to the content, such as adding a new page, updating or fixing some
 
 - PrestaShop 1.7.x documentation is tracked in the `1.7.x` branch.
 - PrestaShop 8.x documentation is tracked in the `8.x` branch.
+- PrestaShop 9.x documentation is tracked in the `9.x` branch.
 
 Consequently, if you want to update the 8.x documentation, you must submit your Pull Request against the `8.x` branch.
 

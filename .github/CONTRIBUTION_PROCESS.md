@@ -25,6 +25,7 @@ PR [#1639](https://github.com/PrestaShop/docs/pull/1639) was not approved by pri
 Pull Requests can be made against different branches. One branch contains the sources for a given PrestaShop version:
 - branch `1.7.x` contains the sources for PrestaShop 1.7 developer documentation
 - branch `8.x` contains the sources for PrestaShop 8 developer documentation
+- branch `9.x` contains the sources for PrestaShop 9 developer documentation
 
 Pull Requests only need to be reviewed. There is no need to test by QA or any other manual tests unless it introduces a complex change, such as a new Hugo markdown. In this situation, reviewers should checkout the branch and verify it behaves as expected.
 

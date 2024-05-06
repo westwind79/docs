@@ -15,7 +15,7 @@ Part of this article was originally published in 2019 as a [blog post](https://b
 
 ## Overview
 
-{{< figure src="../img/architecture-overview.png" title="Basic overview of PrestaShop 8's architecture" >}}
+{{< figure src="../img/architecture-overview.png" title="Basic overview of PrestaShop 9's architecture" >}}
 
 PrestaShop's architecture can be separated in two main logical sections, represented as blue columns in the figure above:
 
@@ -47,7 +47,7 @@ The purple cloud depicted above the Database is what we call the **Core Business
 
 PrestaShop controllers will generally output HTML pages, but on some cases they can output JSON or even XML. The structure of those pages is defined by **Themes** (depicted as pink blocks overlapping both the front-end and the back-end), which transform controller-provided data into HTML. This is true both for the FO and BO.
 
-Although PrestaShop 8 is bundled with default themes for FO and BO, only the FO supports third-party themes.
+Although PrestaShop 9 is bundled with default themes for FO and BO, only the FO supports third-party themes.
 
 PrestaShop provides two API interfaces:
 
@@ -91,7 +91,7 @@ In the following figure, we can appreciate the four subsystems described above:
 
 While this separation may seem excessively complex, it belongs to a transition phase that is necessary to allow the project to move forward progressively. Here's how.
 
-Notice the dotted yellow zone labeled _temporary code_. It means that code within that zone will sooner or later be moved to the Core or PrestaShop Bundle stack. Once the zone it's empty, it will be deleted. Of course, such a change won't be done in a minor version, so you can expect these four stacks to be present for the whole lifetime of PrestaShop 8.
+Notice the dotted yellow zone labeled _temporary code_. It means that code within that zone will sooner or later be moved to the Core or PrestaShop Bundle stack. Once the zone it's empty, it will be deleted. Of course, such a change won't be done in a minor version, so you can expect these four stacks to be present for the whole lifetime of PrestaShop 9.
 
 If you look closely at the relationships between each stack, you'll see that code outside the _temporary code zone_ does not interact directly with legacy classes. As explained before, the Adapter layer sits between the Legacy and the "new" code to ease up the transition of code from the Legacy stack to the Core stack.
 
@@ -236,7 +236,7 @@ Rest assured, this is a _temporary issue_ which will be solved when everything h
 
 Finally, there's [Vue pages][introducing-vue]. Vue pages are hybrid: half-Symfony, half-API based BO pages. In those pages, the page's skeleton is first rendered by a Symfony controller (therefore, based on the **new theme**), and then a VueJS application takes over in the browser and draws its content based on data sent by the BO API.
 
-As stated before, currently only the Stock management and Translation pages are built on this technology. Even though we think that this is [the way of the future][future-architecture], we find that going down this path in minor version releases would produce too many major extensibility and backwards incompatibility issues. Therefore, there will probably be no new Vue/BO API pages in PrestaShop 8.
+As stated before, currently only the Stock management and Translation pages are built on this technology. Even though we think that this is [the way of the future][future-architecture], we find that going down this path in minor version releases would produce too many major extensibility and backwards incompatibility issues. Therefore, there will probably be no new Vue/BO API pages in PrestaShop 9.
 
 
 ## Modules
