@@ -9,6 +9,6 @@ weight: 3
 
 | Hook |  |
 | --- | --- |
-| `displayCustomerAccount` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayCustomerAccount">}}) |
-| `displayOrderDetail` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayOrderDetail">}}) |
-| `displayAdditionalCustomerAddressFields` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayAdditionalCustomerAddressFields">}}) |
+| `displayCustomerAccount` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayCustomerAccount">}}) |
+| `displayOrderDetail` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayOrderDetail">}}) |
+| `displayAdditionalCustomerAddressFields` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayAdditionalCustomerAddressFields">}}) |

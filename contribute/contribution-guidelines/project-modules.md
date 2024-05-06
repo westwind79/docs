@@ -39,7 +39,7 @@ A license file must be stored inside the module (usually it's a `LICENSE.md` fil
 
 ### File headers
 
-All files within a module must include the AFL license header, as provided in the [coding standards chapter]({{< relref "/8/development/coding-standards/_index.md#module-files" >}}).
+All files within a module must include the AFL license header, as provided in the [coding standards chapter]({{< relref "/9/development/coding-standards/_index.md#module-files" >}}).
 
 They can easily be applied by using the `header-stamp` binary from [PrestaShop modules developer tools][php-dev-tools].
 
@@ -79,8 +79,8 @@ $this->ps_versions_compliancy = array(
 Because the `max` value will always use the latest PrestaShop version, it means the module must remain compatible with upcoming (not released) PrestaShop versions too.
 
 [report-issue]: https://github.com/PrestaShop/PrestaShop/issues/new/choose
-[1]: {{< relref "/8/development/coding-standards/" >}}
-[2]: {{< relref "/8/contribute/contribution-guidelines" >}}
+[1]: {{< relref "/9/development/coding-standards/" >}}
+[2]: {{< relref "/9/contribute/contribution-guidelines" >}}
 [3]: https://help.github.com/articles/using-pull-requests
 [AFL-3.0]: https://opensource.org/licenses/AFL-3.0
 [php-dev-tools]: https://github.com/PrestaShop/php-dev-tools

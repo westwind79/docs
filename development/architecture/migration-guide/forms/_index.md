@@ -59,7 +59,7 @@ PrestaShop provides some built-in Form types that will help you integrate the sp
 * `TextWithUnitType`
 * ...
 
-Reference of existing [back office form types can be found here]({{<relref "/8/development/components/form/types-reference/">}}). 
+Reference of existing [back office form types can be found here]({{<relref "/9/development/components/form/types-reference/">}}). 
 
 Most of the components from the PrestaShop UI Kit are implemented as Form Types.
 
@@ -67,7 +67,7 @@ Most of the components from the PrestaShop UI Kit are implemented as Form Types.
 Before creating a new form type, check in the reference or in `src/PrestaShopBundle/Form/Admin/Type` folder first to see if the type already exists.
 {{% /notice %}}
 
-Forms are created and declared [as services](https://symfony.com/doc/4.4/form/form_dependencies.html) that you can use inside your Controllers – this is covered in the [Controllers/Routing section]({{< relref "/8/development/architecture/migration-guide/controller-routing" >}}) of this guide.
+Forms are created and declared [as services](https://symfony.com/doc/4.4/form/form_dependencies.html) that you can use inside your Controllers – this is covered in the [Controllers/Routing section]({{< relref "/9/development/architecture/migration-guide/controller-routing" >}}) of this guide.
 
 ## Learn more
 

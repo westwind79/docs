@@ -9,15 +9,15 @@ weight: 3
 
 | Hook |  |
 | --- | --- |
-| `displayPersonalInformationTop` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayPersonalInformationTop">}}) |
-| `displayCustomerAccountForm` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayCustomerAccountForm">}}) |
-| `displayCheckoutSummaryTop` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayCheckoutSummaryTop">}}) |
-| `displayReassurance` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayReassurance">}}) |
-| `displayBeforeCarrier` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayBeforeCarrier">}}) |
-| `displayAfterCarrier` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayAfterCarrier">}}) |
-| `displayPaymentTop` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayPaymentTop">}}) |
-| `displayPaymentByBinaries` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayPaymentByBinaries">}}) |
-| `displayPaymentReturn` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayPaymentReturn">}}) |
-| `displayOrderConfirmation` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayOrderConfirmation">}}) |
-| `displayRightColumn` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayRightColumn">}}) |
-| `displayOrderConfirmation2` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayOrderConfirmation2">}}) |
+| `displayPersonalInformationTop` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayPersonalInformationTop">}}) |
+| `displayCustomerAccountForm` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayCustomerAccountForm">}}) |
+| `displayCheckoutSummaryTop` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayCheckoutSummaryTop">}}) |
+| `displayReassurance` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayReassurance">}}) |
+| `displayBeforeCarrier` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayBeforeCarrier">}}) |
+| `displayAfterCarrier` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayAfterCarrier">}}) |
+| `displayPaymentTop` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayPaymentTop">}}) |
+| `displayPaymentByBinaries` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayPaymentByBinaries">}}) |
+| `displayPaymentReturn` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayPaymentReturn">}}) |
+| `displayOrderConfirmation` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayOrderConfirmation">}}) |
+| `displayRightColumn` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayRightColumn">}}) |
+| `displayOrderConfirmation2` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayOrderConfirmation2">}}) |

@@ -2,7 +2,7 @@
 title: Configuration
 weight: 40
 aliases:
-  - /8/basics/installation/configuration
+  - /9/basics/installation/configuration
 showOnHomepage: true
 ---
 

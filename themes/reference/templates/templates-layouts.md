@@ -132,7 +132,7 @@ As a template developer, it's your role to ensure your theme is compatible.
 
 ### What's in a layout file
 
-The layout is the very top level of the [template inheritance]({{< relref "/8/themes/reference/template-inheritance/" >}})
+The layout is the very top level of the [template inheritance]({{< relref "/9/themes/reference/template-inheritance/" >}})
 tree. Basically it hold the opening and closing `<html>` tags.
 
 Typical layout files look like the following snippet. This one is a full one:

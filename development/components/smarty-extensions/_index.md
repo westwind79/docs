@@ -55,7 +55,7 @@ You can choose to exclude some modules, which won't be notified of the hook:
 
 ### {l}
 
-The `{l}` function allows you to insert translated text in your template using the [Translation system]({{< ref "/8/development/internationalization/translation/" >}}).
+The `{l}` function allows you to insert translated text in your template using the [Translation system]({{< ref "/9/development/internationalization/translation/" >}}).
 
 This function takes the following of arguments:
 
@@ -98,7 +98,7 @@ So far, it is only used for forms (customer information and checkout).
 This helper is used to generate URLs.
 This will take care of the HTTP scheme (`http` or `https`), domain name, virtual and physical base URI, parameters concatenation, and URL rewriting.
 
-[`{url}` uses the `Link` component]({{< relref "/8/development/components/link" >}}).
+[`{url}` uses the `Link` component]({{< relref "/9/development/components/link" >}}).
 
 {{% notice note %}}
   Please see the `$urls` dataset to find already regenerated urls (such as home, cart, login and so on).
@@ -162,7 +162,7 @@ Will respectively output:
 
 ### Widgets
 
-PrestaShop 1.7 introduced a new way to display modules in a theme, called [Widgets]({{< ref "/8/modules/concepts/widgets" >}}). Instead of using a hook and hooking your module to it, the widget functions allow you explicitly manipulate your module from a template.
+PrestaShop 1.7 introduced a new way to display modules in a theme, called [Widgets]({{< ref "/9/modules/concepts/widgets" >}}). Instead of using a hook and hooking your module to it, the widget functions allow you explicitly manipulate your module from a template.
 
 {{% notice warning %}}
 **Avoid using this feature if you can.**

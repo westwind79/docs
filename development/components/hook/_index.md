@@ -19,4 +19,4 @@ There are two types of hooks:
 
 ## Related reading
 
-- [List of hooks]({{< relref "/8/modules/concepts/hooks/list-of-hooks" >}})
+- [List of hooks]({{< relref "/9/modules/concepts/hooks/list-of-hooks" >}})

@@ -42,6 +42,6 @@ When installed, [use this tutorial to install the AMP stack](https://www.digital
 
 Another good option when it comes to run PrestaShop on Windows, is to use `Docker`: [More informations on this dedicated page]({{< relref "8/basics/installation/environments/docker">}}).
 
-{{<cta relref="/8/basics/installation" type="primary">}}
+{{<cta relref="/9/basics/installation" type="primary">}}
   Back to installation guide
 {{</cta>}}

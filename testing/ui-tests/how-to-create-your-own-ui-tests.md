@@ -3,7 +3,7 @@ title: How to create your own UI tests
 menuTitle: Creating your own UI tests
 weight: 2
 aliases:
-  - /8/testing/ui-tests/how-to-contribute-and-create-ui-tests/
+  - /9/testing/ui-tests/how-to-contribute-and-create-ui-tests/
 ---
 
 # How to create your own UI tests

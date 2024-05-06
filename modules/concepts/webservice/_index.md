@@ -9,7 +9,7 @@ PrestaShop enables merchants to give third-party tools access to their shop's da
 
 Since 1.7 version, developers can extend the resources available through the PrestaShop Webservice with a module.
 
-More informations about PrestaShop Webservice API [here]({{< relref "/8/webservice/">}}).
+More informations about PrestaShop Webservice API [here]({{< relref "/9/webservice/">}}).
 
 ## Create and declare the new entity
 
@@ -205,4 +205,4 @@ You can find a complete version of this example module [here](https://github.com
 
 A Postman collection for this example module [is available here](https://github.com/PrestaShop/webservice-postman-examples/blob/main/demo_custom_resource_collection.json).
 
-To use it, please refer to [this tutorial]({{< relref "/8/webservice/tutorials/testing-webservice-postman" >}})
+To use it, please refer to [this tutorial]({{< relref "/9/webservice/tutorials/testing-webservice-postman" >}})

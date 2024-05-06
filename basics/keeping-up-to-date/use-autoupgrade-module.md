@@ -8,7 +8,7 @@ weight: 40
 
 Also known as the "Autoupgrade module" or the "1-click upgrade module", PrestaShop upgrade assistant aims to automatize the upgrade process.
 
-It is available from your shop administration panel. It executes the [upgrade process]({{< ref "/8/basics/keeping-up-to-date/upgrade.md" >}}) automatically, and is available for almost all versions of PrestaShop.
+It is available from your shop administration panel. It executes the [upgrade process]({{< ref "/9/basics/keeping-up-to-date/upgrade.md" >}}) automatically, and is available for almost all versions of PrestaShop.
 
 {{% notice note %}}
 The same note as above, in order to have this module working you must have set in `/app/config/parameters.php` database account with full privileges.

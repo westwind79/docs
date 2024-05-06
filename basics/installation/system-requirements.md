@@ -19,7 +19,7 @@ PrestaShop needs the following server configuration in order to run:
 PrestaShop works best in Unix-based systems such as Linux and macOS, and while Windows might work, it is not actively supported.
 
 {{% notice note %}}
-PrestaShop can also work with Nginx 1.0 or later. [More informations on settings here]({{< relref "/8/basics/installation/advanced/nginx">}}).
+PrestaShop can also work with Nginx 1.0 or later. [More informations on settings here]({{< relref "/9/basics/installation/advanced/nginx">}}).
 {{% /notice %}}
 
 ## How to verify your server meets PrestaShop's requirements

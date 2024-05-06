@@ -5,7 +5,7 @@ weight: 4
 
 # Adding a configuration page with Symfony forms
 
-With the new Symfony architecture, [there is a much modern way of integrating settings forms]({{<relref "/8/development/architecture/migration-guide/forms/settings-forms">}}) (`Configure` action) for your modules. 
+With the new Symfony architecture, [there is a much modern way of integrating settings forms]({{<relref "/9/development/architecture/migration-guide/forms/settings-forms">}}) (`Configure` action) for your modules. 
 
 In the first part of this guide, we will explain how to implement such a mechanism in a module. We will create a module with a dedicated configuration page consisting of a simple configuration field. 
 
@@ -16,7 +16,7 @@ In the first part of this guide, we will explain how to implement such a mechani
 
 ## Create the base module
 
-[Following this guide]({{<relref "/8/modules/creation/tutorial">}}), create a base module. For our example, the base module is:
+[Following this guide]({{<relref "/9/modules/creation/tutorial">}}), create a base module. For our example, the base module is:
 
 ```php
 <?php
@@ -77,7 +77,7 @@ Then, create a `composer.json` file in your module, and register your namespace:
 }
 ```
 
-Then, run `composer dump-autoload` from the module's directory to generate the `autoload.php` file. See [Setup composer in a module]({{<relref "/8/modules/concepts/composer#autoloading">}}) for more informations.
+Then, run `composer dump-autoload` from the module's directory to generate the `autoload.php` file. See [Setup composer in a module]({{<relref "/9/modules/concepts/composer#autoloading">}}) for more informations.
 
 ## Create the configuration form type
 
@@ -368,7 +368,7 @@ class DemoConfigurationController extends FrameworkBundleAdminController
 ```
 
 {{% notice note %}}
-You can read more about controllers in [controller & routing section]({{<relref "/8/development/architecture/modern/controller-routing">}}) and [in the official Symfony documentation](https://symfony.com/doc/4.4/controller.html)
+You can read more about controllers in [controller & routing section]({{<relref "/9/development/architecture/modern/controller-routing">}}) and [in the official Symfony documentation](https://symfony.com/doc/4.4/controller.html)
 {{% /notice %}}
 
 ### Create a route for the configuration controller
@@ -425,7 +425,7 @@ The module created in this guide is available [here](https://github.com/PrestaSh
 
 ## Other form types
 
-You can use all [native Symfony Form Types](https://symfony.com/doc/4.4/reference/forms/types.html), and the PrestaShop specific ones: [see Form Types reference]({{<relref "/8/development/components/form/types-reference">}}).
+You can use all [native Symfony Form Types](https://symfony.com/doc/4.4/reference/forms/types.html), and the PrestaShop specific ones: [see Form Types reference]({{<relref "/9/development/components/form/types-reference">}}).
 
 {{% notice note %}}
 Please refer to this example module for a complete implementation of those fields: [DemoSymfonyForm](https://github.com/PrestaShop/example-modules/tree/master/demosymfonyform)
@@ -449,7 +449,7 @@ And add the following JavaScript code to this file:
 ```js
 $(document).ready(function () {
     // Learn more about components in documentation
-    // https://devdocs.prestashop.com/8/development/components/global-components/
+    // https://devdocs.prestashop.com/9/development/components/global-components/
     window.prestashop.component.initComponents(
         [
             'TranslatableField',
@@ -466,7 +466,7 @@ $(document).ready(function () {
 ```
 
 {{% notice note %}}
-The JavaScript dependencies of specific types are [described in the form types reference]({{<relref "/8/development/components/form/types-reference">}})
+The JavaScript dependencies of specific types are [described in the form types reference]({{<relref "/9/development/components/form/types-reference">}})
 {{% /notice %}}
 
 {{% notice note %}}

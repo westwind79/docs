@@ -96,7 +96,7 @@ From {{< minver v="8.1.0" >}}, this field won't be displayed as a hook (`display
 
 To do exactly the same, from {{< minver v="8.1.0" >}}, we will implement `actionProductFormBuilderModifier` hook and modify product's FormBuilder.
 
-First, create a module, with a `composer.json` file, [as instructed here]({{< relref "/8/modules/concepts/composer" >}}).
+First, create a module, with a `composer.json` file, [as instructed here]({{< relref "/9/modules/concepts/composer" >}}).
 
 `demonewhooks.php`: 
 
@@ -224,7 +224,7 @@ This new way of adding custom fields to the product page allows you for more pre
 
 ### Hook: actionProductFormBuilderModifier
 
-- Hook : [`action<Object>FormBuilderModifier`]({{< relref "/8/modules/concepts/hooks/list-of-hooks/action<FormName>FormBuilderModifier" >}})
+- Hook : [`action<Object>FormBuilderModifier`]({{< relref "/9/modules/concepts/hooks/list-of-hooks/action<FormName>FormBuilderModifier" >}})
 
 | Old hook | Location on page | Form tab | Inserted |
 | --- | --- | --- | --- |
@@ -245,7 +245,7 @@ Form Type details: [`EditProductFormType`](https://github.com/PrestaShop/PrestaS
 
 Subforms can be extended as well, for example, to add a new input on each combination of a product: 
 
-- Hook to actionProductCombinationFormBuilderModifier ([`action<Object>FormBuilderModifier`]({{< relref "/8/modules/concepts/hooks/list-of-hooks/action<FormName>FormBuilderModifier" >}}))
+- Hook to actionProductCombinationFormBuilderModifier ([`action<Object>FormBuilderModifier`]({{< relref "/9/modules/concepts/hooks/list-of-hooks/action<FormName>FormBuilderModifier" >}}))
 
 ```php
 /**
@@ -573,4 +573,4 @@ A complete working example and implementation is available in our [example-modul
 
 ## Handle data modified by FormBuilderModifier
 
-You need to implement the corresponding [`actionAfterCreate<FormName>FormHandler`]({{< relref "/8/modules/concepts/hooks/list-of-hooks/actionAfterCreate<FormName>FormHandler" >}}) or [`actionAfterUpdate<FormName>FormHandler`]({{< relref "/8/modules/concepts/hooks/list-of-hooks/actionAfterUpdate<FormName>FormHandler" >}}) hook, as shown in our [example-module repository](https://github.com/PrestaShop/example-modules/tree/master/demoproductform).
+You need to implement the corresponding [`actionAfterCreate<FormName>FormHandler`]({{< relref "/9/modules/concepts/hooks/list-of-hooks/actionAfterCreate<FormName>FormHandler" >}}) or [`actionAfterUpdate<FormName>FormHandler`]({{< relref "/9/modules/concepts/hooks/list-of-hooks/actionAfterUpdate<FormName>FormHandler" >}}) hook, as shown in our [example-module repository](https://github.com/PrestaShop/example-modules/tree/master/demoproductform).

@@ -224,5 +224,5 @@ PrestaShop comes with a lot of Grids (Products, Customers, Orders & etc) and kee
 - [Native modules][native-modules]' names must be prefixed with "ps_" (e.g. `ps_linklist`).  
 
 [native-modules]: {{< relref "../native-modules/" >}}
-[coding-standards]: {{< ref "/8/development/coding-standards/" >}}
+[coding-standards]: {{< ref "/9/development/coding-standards/" >}}
 

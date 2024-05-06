@@ -9,7 +9,7 @@ weight: 3
 
 | Hook |  |
 | --- | --- |
-| `displayContactLeftColumn` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayContactLeftColumn">}}) |
-| `displayContactRightColumn` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayContactRightColumn">}}) |
-| `displayContactContent` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayContactContent">}}) |
+| `displayContactLeftColumn` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayContactLeftColumn">}}) |
+| `displayContactRightColumn` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayContactRightColumn">}}) |
+| `displayContactContent` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayContactContent">}}) |
 | `displayGDPRContent` |  |

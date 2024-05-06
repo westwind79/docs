@@ -3,7 +3,7 @@ title: Configure Apache Http
 menuTitle: Apache Http
 weight: 20
 aliases:
-    - /8/basics/installation/httpd
+    - /9/basics/installation/httpd
 ---
 
 # Configure Apache Httpd

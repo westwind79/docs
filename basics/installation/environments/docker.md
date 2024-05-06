@@ -32,7 +32,7 @@ timeline
 {{% notice note %}}
 Looking for a quicker way to test and develop on PrestaShop?
 
-{{<cta relref="/8/basics/installation/advanced/prestashop-flashlight" type="primary">}}
+{{<cta relref="/9/basics/installation/advanced/prestashop-flashlight" type="primary">}}
   Install PrestaShop locally with Docker and PrestaShop Flashlight
 {{</cta>}}
 {{% /notice %}}

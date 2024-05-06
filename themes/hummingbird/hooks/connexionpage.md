@@ -9,6 +9,6 @@ weight: 3
 
 | Hook |  |
 | --- | --- |
-| `displayCustomerLoginFormAfter` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayCustomerLoginFormAfter">}}) |
-| `displayCustomerAccountFormTop` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayCustomerAccountFormTop">}}) |
-| `displayCustomerAccountForm` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayCustomerAccountForm">}}) |
+| `displayCustomerLoginFormAfter` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayCustomerLoginFormAfter">}}) |
+| `displayCustomerAccountFormTop` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayCustomerAccountFormTop">}}) |
+| `displayCustomerAccountForm` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayCustomerAccountForm">}}) |

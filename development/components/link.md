@@ -13,7 +13,7 @@ The `Link` component generates URLs for various PrestaShop routes. It provides a
 
 ## How to use `Link` component
 
-`Link` is available through the [`Context`]({{< relref "/8/development/components/context" >}}), and provides several useful methods such as those documented methods below:
+`Link` is available through the [`Context`]({{< relref "/9/development/components/context" >}}), and provides several useful methods such as those documented methods below:
 
 - `getProductLink()`
 - `getCategoryLink()`
@@ -106,4 +106,4 @@ More parameters are available for this method, please refer to the [method defin
 
 ### Generate URLs to admin routes using Link
 
-You can also generate URLs for admin routes using Link, [please read the dedicated page on this topic]({{< relref "/8/modules/concepts/controllers/admin-controllers/route-generation" >}})
+You can also generate URLs for admin routes using Link, [please read the dedicated page on this topic]({{< relref "/9/modules/concepts/controllers/admin-controllers/route-generation" >}})

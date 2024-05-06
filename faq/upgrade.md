@@ -41,4 +41,4 @@ In order to find out what exactly went wrong, you need to check the upgrade proc
 
 Before upgrading PrestaShop, the upgrade module relies on this constant to ensure that the current version matches the database schema. If the values don't match, it would be a sign of potential issues with the database structure or data which could lead to unforeseen consequences during the upgrade process.
 
-To resolve this issue, run the database upgrade step as explained in [the upgrade page]({{< ref "/8/basics/keeping-up-to-date/upgrade#database-upgrade" >}}).
+To resolve this issue, run the database upgrade step as explained in [the upgrade page]({{< ref "/9/basics/keeping-up-to-date/upgrade#database-upgrade" >}}).

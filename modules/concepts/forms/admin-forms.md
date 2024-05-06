@@ -12,9 +12,9 @@ In PrestaShop 1.6, a specific Form framework was created to help developers. In 
 {{% notice info %}}
 **This system only works with pages from the "Configure" section of your back office.**
 
-If you want to customize an entity form, you're looking for [Grid]({{<relref "8/development/components/grid/" >}}) and [Identifiable Objects]({{<relref "/8/development/architecture/migration-guide/forms/crud-forms">}}).
+If you want to customize an entity form, you're looking for [Grid]({{<relref "8/development/components/grid/" >}}) and [Identifiable Objects]({{<relref "/9/development/architecture/migration-guide/forms/crud-forms">}}).
 
-Learn how to achieve this with the [Grid and identifiable object form hooks usage example]({{<relref "/8/modules/sample-modules/grid-and-identifiable-object-form-hooks-usage">}}).
+Learn how to achieve this with the [Grid and identifiable object form hooks usage example]({{<relref "/9/modules/sample-modules/grid-and-identifiable-object-form-hooks-usage">}}).
 {{% /notice %}}
 
 Let's see an example on how to add, populate, validate and persist a new form field in PrestaShop 1.7.

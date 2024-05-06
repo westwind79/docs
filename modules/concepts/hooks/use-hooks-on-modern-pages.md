@@ -49,7 +49,7 @@ As we need to act on Dashboard but after the header, in the icons toolbar (with 
 
 ### Second step: create and register the Hook
 
-Create a [new module](https://devdocs.prestashop-project.org/8/modules/creation/tutorial) called `foo` and register the hook. You should end up with this kind of code in your module:
+Create a [new module](https://devdocs.prestashop-project.org/9/modules/creation/tutorial) called `foo` and register the hook. You should end up with this kind of code in your module:
 
 ```php
 <?php
@@ -288,5 +288,5 @@ We have used a key for translation, making our own translations available in bac
 
 And "voila!", the module could be of course improved with so many features, adding filters on export for instance, using the `request` hook parameter and updating the Product repository.
 
-[setup-composer]: {{< ref "/8/modules/concepts/composer.md" >}}
+[setup-composer]: {{< ref "/9/modules/concepts/composer.md" >}}
 

@@ -87,11 +87,11 @@ Before proposing to add a new dependency, make sure you do this:
 
 ## Related topics
 
-- [What happens after you submit a contribution]({{< relref "/8/contribute/contribution-process/how-pull-requests-are-processed" >}})
+- [What happens after you submit a contribution]({{< relref "/9/contribute/contribution-process/how-pull-requests-are-processed" >}})
 
 ## Read more
 
 {{% children /%}}
 
-[how-to-compile-assets]: {{% relref "/8/development/compile-assets.md" %}}
+[how-to-compile-assets]: {{% relref "/9/development/compile-assets.md" %}}
 [compatible-licenses]: {{% relref "compatible-licenses" %}}

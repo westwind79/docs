@@ -2,7 +2,7 @@
 title: Upgrade channels
 weight: 40
 aliases:
-  - /8/development/upgrade-module/channels
+  - /9/development/upgrade-module/channels
 ---
 
 # Upgrade channels

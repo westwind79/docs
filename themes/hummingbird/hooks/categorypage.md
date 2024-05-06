@@ -8,6 +8,6 @@ weight: 3
 
 | Hook |  |
 | --- | --- |
-| `displayLeftColumn` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayLeftColumn">}}) |
-| `displayHeaderCategory` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayHeaderCategory">}}) |
-| `displayFooterCategory` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayFooterCategory">}}) |
+| `displayLeftColumn` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayLeftColumn">}}) |
+| `displayHeaderCategory` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayHeaderCategory">}}) |
+| `displayFooterCategory` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayFooterCategory">}}) |

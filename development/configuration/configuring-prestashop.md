@@ -101,5 +101,5 @@ SetEnv _TOKEN_ disabled
 add_header _TOKEN_ disabled;
 ```
 
-[configuration-storage]: {{< relref "/8/development/components/configuration/" >}}
+[configuration-storage]: {{< relref "/9/development/components/configuration/" >}}
 

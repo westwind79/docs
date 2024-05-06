@@ -6,11 +6,11 @@ weight: 20
 # CRUD Forms
 
 {{% notice tip %}}
-If you are looking to customize an identifiable object with a module, please have a look at [Grid and identifiable object form hooks usage example]({{<relref "/8/modules/sample-modules/grid-and-identifiable-object-form-hooks-usage">}}).
+If you are looking to customize an identifiable object with a module, please have a look at [Grid and identifiable object form hooks usage example]({{<relref "/9/modules/sample-modules/grid-and-identifiable-object-form-hooks-usage">}}).
 {{% /notice %}}
 
 {{% notice tip %}}
-If you are looking for the Form component documentation, please have a look at [Forms with Symfony]({{<relref "/8/development/components/form">}}).
+If you are looking for the Form component documentation, please have a look at [Forms with Symfony]({{<relref "/9/development/components/form">}}).
 {{% /notice %}}
 
 {{% notice tip %}}

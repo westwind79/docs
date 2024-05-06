@@ -609,7 +609,7 @@ developers to request the database.
 This can be used while developing a module responsible for the export
 and/or import of the objects from/to the database.
 
-For more details, see the page dedicated to [ObjectModel]({{< relref "/8/development/components/database/objectmodel" >}})
+For more details, see the page dedicated to [ObjectModel]({{< relref "/9/development/components/database/objectmodel" >}})
 
 ### Web service (API)
 
@@ -636,4 +636,4 @@ Useful links:
 
 -   [How to use the webservice API][web-service]
 
-[web-service]: {{< relref "/8/webservice" >}}
+[web-service]: {{< relref "/9/webservice" >}}
