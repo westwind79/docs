@@ -9,19 +9,19 @@ weight: 3
 
 | Hook |  |
 | --- | --- |
-| `displayAfterTitleTag` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayAfterTitleTag">}}) |
-| `displayAfterBodyOpeningTag` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayAfterBodyOpeningTag">}}) |
-| `displayBanner` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayBanner">}}) |
-| `displayNav1` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayNav1">}}) |
-| `displayNav2` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayNav2">}}) |
-| `displayTop` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayTop">}}) |
-| `displayNavFullWidth` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayNavFullWidth">}}) |
-| `displayWrapperTop` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayWrapperTop">}}) |
-| `displayContentWrapperTop` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayContentWrapperTop">}}) |
-| `displayContentWrapperBottom` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayContentWrapperBottom">}}) |
-| `displayWrapperBottom` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayWrapperBottom">}}) |
-| `displayFooterBefore` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayFooterBefore">}}) |
-| `displayFooter` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayFooter">}}) |
-| `displayMyAccountBlock` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayMyAccountBlock">}}) |
-| `displayFooterAfter` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayFooterAfter">}}) |
-| `displayBeforeBodyClosingTag` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayBeforeBodyClosingTag">}}) |
+| `displayAfterTitleTag` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayAfterTitleTag">}}) |
+| `displayAfterBodyOpeningTag` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayAfterBodyOpeningTag">}}) |
+| `displayBanner` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayBanner">}}) |
+| `displayNav1` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayNav1">}}) |
+| `displayNav2` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayNav2">}}) |
+| `displayTop` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayTop">}}) |
+| `displayNavFullWidth` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayNavFullWidth">}}) |
+| `displayWrapperTop` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayWrapperTop">}}) |
+| `displayContentWrapperTop` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayContentWrapperTop">}}) |
+| `displayContentWrapperBottom` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayContentWrapperBottom">}}) |
+| `displayWrapperBottom` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayWrapperBottom">}}) |
+| `displayFooterBefore` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayFooterBefore">}}) |
+| `displayFooter` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayFooter">}}) |
+| `displayMyAccountBlock` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayMyAccountBlock">}}) |
+| `displayFooterAfter` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayFooterAfter">}}) |
+| `displayBeforeBodyClosingTag` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayBeforeBodyClosingTag">}}) |

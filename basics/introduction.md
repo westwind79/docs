@@ -15,9 +15,9 @@ PrestaShop’s customization is based on four possibilities:
 * Hooks,
 * Overriding.
 
-Themes are explored in full in the [Themes]({{< ref "/8/themes" >}}) section.
+Themes are explored in full in the [Themes]({{< ref "/9/themes" >}}) section.
 
-Modules, hooks and the override system are explored in this page and in the [Modules]({{< ref "/8/modules" >}}) section.
+Modules, hooks and the override system are explored in this page and in the [Modules]({{< ref "/9/modules" >}}) section.
 
 {{% notice note %}}
 By default, PrestaShop is provided with more than 50 modules, enabling you to launch your online business quickly and for free.

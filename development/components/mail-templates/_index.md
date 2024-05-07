@@ -123,7 +123,7 @@ The templates from layouts generation workflow is a bit complex, here are the ma
 {{< figure src="./img/email_generation_workflow.svg" title="Email Generation Workflow (it is advised to open it in another tab as the image is quite big)" >}}
 
 {{% notice note %}}
-You can update this schema using the [source XML file](/8/schemas/email_generation_workflow.xml) importable in services like [draw.io](https://draw.io).
+You can update this schema using the [source XML file](/9/schemas/email_generation_workflow.xml) importable in services like [draw.io](https://draw.io).
 {{% /notice %}}
 
 ### Available hooks
@@ -246,8 +246,8 @@ Be aware this operation will **permanently modify** your shop theme's files!
 
 ### Module Tutorials
 
-* [How to extend a layout in a theme from a module]({{< relref "/8/modules/concepts/mail-templates/extend-a-layout-from-module" >}})
-* [How to add a layout in a theme from a module]({{< relref "/8/modules/concepts/mail-templates/add-a-layout-from-module" >}})
-* [How to add an email theme from a module]({{< relref "/8/modules/concepts/mail-templates/add-a-theme-from-module" >}})
-* [How to add layout variables from a module]({{< relref "/8/modules/concepts/mail-templates/add-layout-variables-from-module" >}})
-* [How to apply a transformation from a module]({{< relref "/8/modules/concepts/mail-templates/apply-transformation-from-module" >}})
+* [How to extend a layout in a theme from a module]({{< relref "/9/modules/concepts/mail-templates/extend-a-layout-from-module" >}})
+* [How to add a layout in a theme from a module]({{< relref "/9/modules/concepts/mail-templates/add-a-layout-from-module" >}})
+* [How to add an email theme from a module]({{< relref "/9/modules/concepts/mail-templates/add-a-theme-from-module" >}})
+* [How to add layout variables from a module]({{< relref "/9/modules/concepts/mail-templates/add-layout-variables-from-module" >}})
+* [How to apply a transformation from a module]({{< relref "/9/modules/concepts/mail-templates/apply-transformation-from-module" >}})

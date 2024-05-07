@@ -95,7 +95,7 @@ A good practice is to write meaningful commits messages: it's better to have "co
 ### Launch the test suite
 
 Your changes now sounds ok, and you're almost ready to share your changes with the community.
-Before all, you may ensure your changes don't break everything: this is why we have multiple test suites you can use. Want to read more about tests in PrestaShop? Head to [this]({{< relref "/8/testing/" >}}) page.
+Before all, you may ensure your changes don't break everything: this is why we have multiple test suites you can use. Want to read more about tests in PrestaShop? Head to [this]({{< relref "/9/testing/" >}}) page.
 
 You can execute it in your dockerized PrestaShop application without altering your website (it uses a specific database).
 
@@ -105,4 +105,4 @@ docker compose exec prestashop-git composer test-all
 
 ### Publish your work
 
-See [Submit a Pull Request]({{< relref "/8/contribute/contribute-pull-requests/create-pull-request" >}}).
+See [Submit a Pull Request]({{< relref "/9/contribute/contribute-pull-requests/create-pull-request" >}}).

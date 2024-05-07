@@ -13,7 +13,7 @@ PrestaShop's translation system is based on the [Symfony Translation component](
 {{% notice warning %}}
 **This documentation describes how the Core handles translations.**
 
-If you are a module developer, read the [module translation documentation]({{< relref "/8/modules/creation/module-translation/" >}}) instead.
+If you are a module developer, read the [module translation documentation]({{< relref "/9/modules/creation/module-translation/" >}}) instead.
 {{% /notice %}}
 
 ## Read more

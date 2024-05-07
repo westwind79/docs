@@ -9,8 +9,8 @@ weight: 5
 
 | Hook |  |
 | --- | --- |
-| `displayShoppingCart` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayShoppingCart">}}) |
-| `displayCartExtraProductActions` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayCartExtraProductActions">}}) |
-| `displayReassurance` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayReassurance">}}) |
-| `displayShoppingCartFooter` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayShoppingCartFooter">}}) |
-| `displayCrossSellingShoppingCart` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayCrossSellingShoppingCart">}}) |
+| `displayShoppingCart` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayShoppingCart">}}) |
+| `displayCartExtraProductActions` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayCartExtraProductActions">}}) |
+| `displayReassurance` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayReassurance">}}) |
+| `displayShoppingCartFooter` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayShoppingCartFooter">}}) |
+| `displayCrossSellingShoppingCart` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayCrossSellingShoppingCart">}}) |

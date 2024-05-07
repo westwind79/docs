@@ -118,7 +118,7 @@ When you install/enable a theme, PrestaShop checks if the theme is valid: it loo
 (and checks its content), its declared compatibility, and the existence of some files.
 
 There is a list of files that need to exists, even if they're empty. Please see dedicated documentation
-to know [what makes a theme valid]({{< relref "/8/themes/distribution/testing" >}}).
+to know [what makes a theme valid]({{< relref "/9/themes/distribution/testing" >}}).
 
 It could be that you've built some sort of groundbreaking theme and it doesn't exactly work like the
 Classic Theme does. For instance, if you don't have a product page, then you don't need the product.tpl file.
@@ -129,4 +129,4 @@ add a comment indicating where the code related to products can be found ;)
 
 jQuery v3.5 is loaded by the core (bundled in `core.js`) file.
 
-Read more about [assets management]({{< relref "/8/themes/getting-started/asset-management/" >}}).
+Read more about [assets management]({{< relref "/9/themes/getting-started/asset-management/" >}}).

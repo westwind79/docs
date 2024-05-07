@@ -132,7 +132,7 @@ Search Criteria is immutable. This means that once a Search Criteria object is c
 
 ### Creating Search Criteria
 
-Even though most of the time Search Criteria will be created using the [Filters component]({{< relref "/8/development/components/grid/tutorials/work-with-search-form/" >}}), you can still
+Even though most of the time Search Criteria will be created using the [Filters component]({{< relref "/9/development/components/grid/tutorials/work-with-search-form/" >}}), you can still
 create it manually. Grid provides a simple implementation for it.
 
 ```php
@@ -401,7 +401,7 @@ It is possible to include the provided template and modify some parts of it, or 
 {{< figure src="../img/grid_workflow.svg" title="Main workflow of the Grid Component" >}}
 
 {{% notice note %}}
-You can update this schema using the [source XML file](/8/schemas/grid_workflow.xml) importable in services like [draw.io](https://draw.io).
+You can update this schema using the [source XML file](/9/schemas/grid_workflow.xml) importable in services like [draw.io](https://draw.io).
 {{% /notice %}}
 
 ### Hooks
@@ -409,7 +409,7 @@ You can update this schema using the [source XML file](/8/schemas/grid_workflow.
 {{< figure src="../img/grid_workflow_hooks.svg" title="Available hooks when creating a Grid" >}}
 
 {{% notice note %}}
-You can update this schema using the [source XML file](/8/schemas/grid_workflow_hooks.xml) importable in services like [draw.io](https://draw.io).
+You can update this schema using the [source XML file](/9/schemas/grid_workflow_hooks.xml) importable in services like [draw.io](https://draw.io).
 {{% /notice %}}
 
 ## Learn more

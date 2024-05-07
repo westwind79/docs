@@ -178,6 +178,6 @@ However we could modify the input request or the output given by decorated contr
 If you have trouble writing the right service configuration for your decoration, you can use Symfony debugger to dump the routes with `php bin/console debug:container`. It can also be helpful to find the service ID of the controller.
 {{% /notice %}}
 
-[hooks]: {{< ref "/8/modules/concepts/hooks" >}}
-[template-override]: {{< ref "/8/modules/concepts/templating/admin-views" >}}
-[override-services]: {{< ref "/8/modules/concepts/services" >}}
+[hooks]: {{< ref "/9/modules/concepts/hooks" >}}
+[template-override]: {{< ref "/9/modules/concepts/templating/admin-views" >}}
+[override-services]: {{< ref "/9/modules/concepts/services" >}}

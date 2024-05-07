@@ -33,7 +33,7 @@ This installation method is not for production and should not be exposed to publ
 please use it locally only, or at your own risks.
 
 Are you looking for production-grade images? 
-{{<cta relref="/8/basics/installation/environments/docker" type="primary">}}
+{{<cta relref="/9/basics/installation/environments/docker" type="primary">}}
   Install PrestaShop with Docker
 {{</cta>}}
 
@@ -41,7 +41,7 @@ Are you looking for production-grade images?
 
 ## Install prerequisites
 
-Follow this guide: [Install PrestaShop with Docker]({{<relref "/8/basics/installation/environments/docker">}}) at steps: 
+Follow this guide: [Install PrestaShop with Docker]({{<relref "/9/basics/installation/environments/docker">}}) at steps: 
 
 - Install Docker
 - Install Docker Compose

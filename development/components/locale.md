@@ -7,7 +7,7 @@ menuTitle: Locale
 
 The `Locale` component is in charge of formating numbers, prices and percentages.
 
-It is accessible through the [`Context`]({{< relref "/8/development/components/context" >}})
+It is accessible through the [`Context`]({{< relref "/9/development/components/context" >}})
 
 It provides useful methods such as `formatNumber()` and `formatPrice()`. 
 

@@ -6,7 +6,7 @@ weight: 4
 # Adding a configuration page
 
 {{% notice note %}}
-Learn [how to create a configuration page with Symfony forms]({{<relref "/8/modules/creation/adding-configuration-page-modern">}}).
+Learn [how to create a configuration page with Symfony forms]({{<relref "/9/modules/creation/adding-configuration-page-modern">}}).
 {{% /notice %}}
 
 {{% notice info %}}

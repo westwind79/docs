@@ -6,7 +6,7 @@ mostViewedPage: true
 useMermaid: true
 showOnHomepage: true
 aliases: 
-    - /8/basics/installation/locahost
+    - /9/basics/installation/locahost
 ---
 
 # Installing PrestaShop locally for development or testing
@@ -47,7 +47,7 @@ timeline
     : You are ready to go
 </div>
 
-{{<cta relref="/8/basics/installation/environments/docker" type="primary">}}
+{{<cta relref="/9/basics/installation/environments/docker" type="primary">}}
   Install PrestaShop locally with Docker
 {{</cta>}}
 
@@ -76,15 +76,15 @@ Read [System Requirements][system-requirements].
 
 #### Install an *AMP stack on your operating system
 
-{{<cta relref="/8/basics/installation/environments/unix-specific">}}
+{{<cta relref="/9/basics/installation/environments/unix-specific">}}
   Install an *AMP stack on Unix
 {{</cta>}}
 
-{{<cta relref="/8/basics/installation/environments/windows-specific">}}
+{{<cta relref="/9/basics/installation/environments/windows-specific">}}
   Install an *AMP stack on Windows
 {{</cta>}}
 
-{{<cta relref="/8/basics/installation/environments/macos-specific">}}
+{{<cta relref="/9/basics/installation/environments/macos-specific">}}
   Install an *AMP stack on MacOS
 {{</cta>}}
 
@@ -279,7 +279,7 @@ You can read the [Getting Started guide][getting-started-guide] for more details
 
 #### With CLI
 
-You can also install PrestaShop with CLI, [please refer to this guide]({{< relref "/8/basics/installation/advanced/install-from-cli">}})
+You can also install PrestaShop with CLI, [please refer to this guide]({{< relref "/9/basics/installation/advanced/install-from-cli">}})
 
 ### Troubleshooting
 
@@ -290,9 +290,9 @@ You may find this error message the first time you open up the Back Office.
 This problem may arise in case-insensitive file systems like MacOS due to a misconfiguration. Check your Apache configuration and make sure that the root directory path to your PrestaShop matches the capitalization of the actual system path exactly. A typical error is for example having a folder named `/path/to/PrestaShop` (capital P, capital S) and then configuring it in Apache as `/path/to/Prestashop` (missing the capital S).
 
 [getting-started-guide]: https://docs.prestashop-project.org/v.8-documentation/v/english/getting-started
-[system-requirements]: {{< relref "/8/basics/installation/system-requirements" >}}
-[clone-the-repository]: {{< relref "/8/themes/getting-started/setting-up-your-local-environment" >}}
-[compile-assets]: {{< relref "/8/development/compile-assets" >}}
+[system-requirements]: {{< relref "/9/basics/installation/system-requirements" >}}
+[clone-the-repository]: {{< relref "/9/themes/getting-started/setting-up-your-local-environment" >}}
+[compile-assets]: {{< relref "/9/development/compile-assets" >}}
 [webpack]: https://webpack.js.org/
 [composer]: https://getcomposer.org/download/
 [nodejs]: https://nodejs.org/

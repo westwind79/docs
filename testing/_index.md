@@ -20,7 +20,7 @@ Automated tests are located in `tests` folders
 
 In the `tests` folder, you will find:
 
-- [Integration tests](/8/testing/integration-tests/)
-- [Unit tests](/8/testing/unit-tests/)
-- [User interface tests](/8/testing/ui-tests/)
+- [Integration tests](/9/testing/integration-tests/)
+- [Unit tests](/9/testing/unit-tests/)
+- [User interface tests](/9/testing/ui-tests/)
 

@@ -263,7 +263,7 @@ if (!defined('_PS_DEBUG_PROFILING_')) {
 
 ### 8) PrestaShop database cleaning
 
-See [the Taking Care of PrestaShop page section]({{< ref "/8/scale/taking-care" >}}).
+See [the Taking Care of PrestaShop page section]({{< ref "/9/scale/taking-care" >}}).
 
 ### 9) Modules optimization
 

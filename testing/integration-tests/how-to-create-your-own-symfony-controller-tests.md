@@ -3,7 +3,7 @@ title: How to create your own symfony controller tests
 menuTitle: Creating your own symfony controller tests
 weight: 30
 aliases:
-  - /8/testing/how-to-create-your-own-symfony-controller-tests/
+  - /9/testing/how-to-create-your-own-symfony-controller-tests/
 ---
 
 # How to create your own symfony controller tests or add tests to PrestaShop

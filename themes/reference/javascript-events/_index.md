@@ -8,7 +8,7 @@ weight: 4
 ## Javascript architecture
 
 {{% notice info %}}
-It's recommended to read more about [PrestaShop asset management]({{< relref "/8/themes/getting-started/asset-management/" >}}) before continuing.
+It's recommended to read more about [PrestaShop asset management]({{< relref "/9/themes/getting-started/asset-management/" >}}) before continuing.
 {{% /notice %}}
 
 A default store loads two important files on every page:

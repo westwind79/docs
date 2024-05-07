@@ -14,7 +14,7 @@ Once the `Product` is added, we'll include some `Stocks`, upload an `Image`, and
 
 Finally, we'll explain how to manage `Features`, `Combinations` and `Attributes`.
 
-We will illustrate those examples [with a Postman Collection]({{<relref "/8/webservice/tutorials/testing-webservice-postman">}}), that you can download and run against your own PrestaShop Webservices. 
+We will illustrate those examples [with a Postman Collection]({{<relref "/9/webservice/tutorials/testing-webservice-postman">}}), that you can download and run against your own PrestaShop Webservices. 
 
 [Download the Postman Collection](https://github.com/PrestaShop/webservice-postman-examples/blob/main/demo_product_az.json)
 

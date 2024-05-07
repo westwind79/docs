@@ -76,7 +76,7 @@ Please note that if a Cart contains only Virtual Products, there is no `checkout
    Note that the Carrier will not be available if a selected country or zone is disabled (in Back Office International -> Locations) or Carrier shipping and locations settings are not configured.
 3. **Select payment method** (checkout-payment-step): choose how to pay for the Order. Shop Employees can configure payment methods in 
    Back Office `Payment -> Payment methods`.
-   All payments are handled by payment modules. PrestaShop comes with 3 [payment modules]({{< relref "/8/modules/payment" >}}) by default:
+   All payments are handled by payment modules. PrestaShop comes with 3 [payment modules]({{< relref "/9/modules/payment" >}}) by default:
 
     * ps_checkpayment - allows check payments.
     * ps_wirepayment - allows wire payments (bank transfers).

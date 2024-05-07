@@ -4,7 +4,7 @@ title: List of hooks
 type: 
 chapter: false
 aliases:
- - /8/modules/sample-modules/example-hooks
+ - /9/modules/sample-modules/example-hooks
 mostViewedPage: true
 ---
 
@@ -18,7 +18,7 @@ A regex based search has been implemented, and generic hooks should be matched. 
 {{% /notice %}}
 
 {{% notice tip %}}
-Looking for available hooks in the front office? Check out our [Hook mapping project]({{<relref "/8/themes/hummingbird/hooks">}}), which provides a visual representation of hook availability in the Hummingbird theme.
+Looking for available hooks in the front office? Check out our [Hook mapping project]({{<relref "/9/themes/hummingbird/hooks">}}), which provides a visual representation of hook availability in the Hummingbird theme.
 {{% /notice %}}
 
 ## Search for a hook

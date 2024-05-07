@@ -40,7 +40,7 @@ Hint: `--debug` without `--filter` gives a nice list to filter with.
 
 To check if you covered everything in your test cases, it's best to run the tests with [phpunit coverage report](https://phpunit.readthedocs.io/en/9.5/code-coverage-analysis.html).
 
-First, get your [environment up and running]({{< relref "/8/basics/installation" >}}). 
+First, get your [environment up and running]({{< relref "/9/basics/installation" >}}). 
 
 Then, [install and enable Xdebug](https://xdebug.org/docs/install).
 
@@ -51,7 +51,7 @@ XDEBUG_MODE=coverage vendor/bin/phpunit --coverage-text -c tests/Unit/phpunit.xm
 ```
 
 {{% notice note %}}
-You may use a [Dockerized environment to run the project]({{< relref "/8/basics/installation/environments/docker" >}}).
+You may use a [Dockerized environment to run the project]({{< relref "/9/basics/installation/environments/docker" >}}).
 
 After that is up and running, you need to compile and enable Xdebug:
 

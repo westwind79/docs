@@ -8,7 +8,7 @@ title: Module domain
 
 #### BulkToggleModuleStatusCommand {id="BulkToggleModuleStatusCommand"}
 
-{{%  include-md "content/8/development/architecture/domain/references/module/_partials/bulk-toggle-module-status-command.md" %}}
+{{%  include-md "content/9/development/architecture/domain/references/module/_partials/bulk-toggle-module-status-command.md" %}}
 
 ### Module Queries
 

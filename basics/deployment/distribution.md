@@ -21,4 +21,4 @@ To include modules in your distribution, put them in the `modules/` folder befor
 
 During the install process, every module inside `modules/` folder will be installed. Be careful to test that your module is compatible with this step.
 
-[create-release]: {{< ref "/8/project/maintainers-guide/releasing-prestashop/create-build.md" >}}
+[create-release]: {{< ref "/9/project/maintainers-guide/releasing-prestashop/create-build.md" >}}

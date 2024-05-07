@@ -65,4 +65,4 @@ This collection illustrates how to create a product from A to Z with all of its 
 
 ## Article resource examples (demo_custom_resource_collection.json)
 
-This collection is related to the tutorial: [How to extend the Webservice with a custom resource]({{< relref "/8/modules/concepts/webservice/">}})
+This collection is related to the tutorial: [How to extend the Webservice with a custom resource]({{< relref "/9/modules/concepts/webservice/">}})

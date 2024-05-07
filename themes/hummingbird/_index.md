@@ -17,4 +17,4 @@ Please note that the Hummingbird theme is still under development and is not con
 
 ## Hook mapping project for the Hummingbird theme
 
-A visual map of hooks for the Hummingbird theme has been created, [find more information about the project here]({{<relref "/8/themes/hummingbird/hooks">}}).
+A visual map of hooks for the Hummingbird theme has been created, [find more information about the project here]({{<relref "/9/themes/hummingbird/hooks">}}).

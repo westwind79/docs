@@ -7,7 +7,7 @@ weight: 1
 # Tutorial: Creating your first module
 
 {{% notice note %}}
-Before you start writing code for your PrestaShop module, we recommend reading PrestaShop's [Coding standards]({{< ref "/8/development/coding-standards" >}}). Configuring your IDE hints or using [automated tools](https://github.com/PrestaShop/php-dev-tools) can help you make sure you follow the project's standards properly.
+Before you start writing code for your PrestaShop module, we recommend reading PrestaShop's [Coding standards]({{< ref "/9/development/coding-standards" >}}). Configuring your IDE hints or using [automated tools](https://github.com/PrestaShop/php-dev-tools) can help you make sure you follow the project's standards properly.
 {{% /notice %}}
 
 Let's create a first simple module, this will allow us to better describe its structure. We will name it **"My module"**.
@@ -15,7 +15,7 @@ Let's create a first simple module, this will allow us to better describe its st
 First, create the module's folder, in PrestaShop's `/modules` folder. Let's call it `mymodule`. This will be the module's "technical" name.
 
 {{% notice tip %}}
-Technical names can only accept lower case alphanumeric characters (`[a-z0-9]`). [Although accepted, we strongly discourage using underscores because they don't work with translation domains]({{< ref "/8/modules/creation/module-translation/new-system#translation-domain" >}}).
+Technical names can only accept lower case alphanumeric characters (`[a-z0-9]`). [Although accepted, we strongly discourage using underscores because they don't work with translation domains]({{< ref "/9/modules/creation/module-translation/new-system#translation-domain" >}}).
 {{% /notice %}}
 
 This folder must contain the main file, a PHP file of the same name as the folder, which will handle most of the processing: `mymodule.php`.
@@ -243,7 +243,7 @@ This PrestaShop-specific object allows you to easily manage all the shop's setti
 This is a very useful and easy-to-use object, and you will certainly use it in many situations. Most native modules use it too for their own settings.
 
 {{% notice note %}}
-You can read more about this component in [Legacy Configuration object]({{< ref "/8/development/components/configuration/backward-compatibility" >}}) and [Configuration storage]({{< ref "/8/development/components/configuration" >}}).
+You can read more about this component in [Legacy Configuration object]({{< ref "/9/development/components/configuration/backward-compatibility" >}}) and [Configuration storage]({{< ref "/9/development/components/configuration" >}}).
 {{% /notice %}}
 
 ## The Shop object
@@ -306,7 +306,7 @@ To uninstall the module, run the following:
 php bin/console prestashop:module uninstall mymodule
 ```
 
-For more informations, please read [the reference of the ModuleCommand]({{< ref "/8/development/components/console/prestashop-module" >}})
+For more informations, please read [the reference of the ModuleCommand]({{< ref "/9/development/components/console/prestashop-module" >}})
 
 ### The config.xml file
 
@@ -329,5 +329,5 @@ header('Location: ../');
 exit;
 ```
 
-[existing-tab-sections]: {{< ref "/8/modules/concepts/module-class/#tab" >}}
-[multistore]: {{< ref "/8/development/multistore/" >}}
+[existing-tab-sections]: {{< ref "/9/modules/concepts/module-class/#tab" >}}
+[multistore]: {{< ref "/9/development/multistore/" >}}

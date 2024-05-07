@@ -9,13 +9,13 @@ weight: 3
 
 | Hook |  |
 | --- | --- |
-| `displayProductActions` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayProductActions">}}) |
-| `displayProductAdditionalInfo` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayProductAdditionalInfo">}}) |
-| `displayAfterProductThumbs` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayAfterProductThumbs">}}) |
-| `displayReassurance` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayReassurance">}}) |
-| `displayLeftColumnProduct` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayLeftColumnProduct">}}) |
-| `displayRightColumnProduct` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayRightColumnProduct">}}) |
-| `displayFooterProduct` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayFooterProduct">}}) |
+| `displayProductActions` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayProductActions">}}) |
+| `displayProductAdditionalInfo` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayProductAdditionalInfo">}}) |
+| `displayAfterProductThumbs` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayAfterProductThumbs">}}) |
+| `displayReassurance` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayReassurance">}}) |
+| `displayLeftColumnProduct` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayLeftColumnProduct">}}) |
+| `displayRightColumnProduct` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayRightColumnProduct">}}) |
+| `displayFooterProduct` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayFooterProduct">}}) |
 | `displayCardModalContent` |  |
 | `displayCardModalFooter` |  |
-| `displayProductAdditionalInfo` | [Documentation]({{< relref "/8/modules/concepts/hooks/list-of-hooks/displayProductAdditionalInfo">}}) |
+| `displayProductAdditionalInfo` | [Documentation]({{< relref "/9/modules/concepts/hooks/list-of-hooks/displayProductAdditionalInfo">}}) |

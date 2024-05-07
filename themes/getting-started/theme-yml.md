@@ -37,7 +37,7 @@ Users will be able to choose the layout for each page from the theme's settings 
 ## Parent / child settings
 
 {{% notice note %}}
-Find more information about [Theming inheritance - Parent/child themes]({{<relref "/8/themes/reference/template-inheritance/parent-child-feature">}})
+Find more information about [Theming inheritance - Parent/child themes]({{<relref "/9/themes/reference/template-inheritance/parent-child-feature">}})
 {{% /notice %}}
 
 To set the parent theme, set the parent key to the theme's name: 

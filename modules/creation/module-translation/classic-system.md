@@ -279,7 +279,7 @@ Sometimes the same wording would be translated differently when used in two diff
 Although contextualization is optional, we strongly suggest to contextualize all your wordings.
 
 {{% notice note %}}
-Contextualization works differently in the Core, see [Core Translation]({{< ref "/8/development/internationalization/translation/" >}}).
+Contextualization works differently in the Core, see [Core Translation]({{< ref "/9/development/internationalization/translation/" >}}).
 {{% /notice %}}
 
 ##### Contextualize translations in PHP files

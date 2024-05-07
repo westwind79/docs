@@ -13,7 +13,7 @@ All information stored in the `Cookie` component is encrypted before being store
 
 ### Retrieve a `Cookie` instance
 
-A `Cookie` instance is available through [`Context`]({{< relref "/8/development/components/context">}}). 
+A `Cookie` instance is available through [`Context`]({{< relref "/9/development/components/context">}}). 
 
 To get a `Context` instance from a `Controller` subclass or a `Module` subclass, the `Context` should be called with this shortcut: 
 

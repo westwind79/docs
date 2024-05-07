@@ -8,7 +8,7 @@ title: Tab domain
 
 #### UpdateTabStatusByClassNameCommand {id="UpdateTabStatusByClassNameCommand"}
 
-{{%  include-md "content/8/development/architecture/domain/references/tab/_partials/update-tab-status-by-class-name-command.md" %}}
+{{%  include-md "content/9/development/architecture/domain/references/tab/_partials/update-tab-status-by-class-name-command.md" %}}
 
 ### Tab Queries
 

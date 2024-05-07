@@ -65,4 +65,4 @@ Example of a TypeScript configuration file:
 ```
 
 
-[global JavaScript components]: {{< ref "/8/development/components/global-components" >}}
+[global JavaScript components]: {{< ref "/9/development/components/global-components" >}}
