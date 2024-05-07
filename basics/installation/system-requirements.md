@@ -1,11 +1,11 @@
 ---
-title: System requirements for PrestaShop 8
+title: System requirements for PrestaShop 9
 menuTitle: System requirements
 weight: 1
 mostViewedPage: true
 ---
 
-# System requirements for PrestaShop 8
+# System requirements for PrestaShop 9
 
 PrestaShop needs the following server configuration in order to run:
 

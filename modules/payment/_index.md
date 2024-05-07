@@ -18,7 +18,7 @@ Please note that your module won't be listed in payment methods admin page unles
 
 ## Requirements
 
-To develop a payment module for PrestaShop 8, you'll have to respect some elements:
+To develop a payment module for PrestaShop 9, you'll have to respect some elements:
 
 - Your class have to extend `PaymentModule`.
 - You have to implement the two following methods: `hookPaymentOptions()` & `hookPaymentReturn()` and register these hooks (`PaymentOptions` and `PaymentReturn`).
