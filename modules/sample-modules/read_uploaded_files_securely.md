@@ -36,4 +36,4 @@ The admin_common_secured_file_image_reader route is linked to a controller calle
 
 For other types of documents, such as PDFs, Word documents, ZIP files, etc., the file will be downloaded as an attachment, preventing it from being opened in the back office context.
 
-This controller, SecuredFileReaderController, is defined as a service in src/PrestaShopBundle/Resources/config/services/bundle/controller.yml. This means it can be decorated, allowing you to manage file types whose extensions are not listed in the controller.
+This controller, `SecuredFileReaderController`, is defined as a service in `src/PrestaShopBundle/Resources/config/services/bundle/controller.yml`. This means it can be decorated, allowing you to manage file types whose extensions are not listed in the controller.
