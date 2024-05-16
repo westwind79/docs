@@ -32,7 +32,7 @@ You can now use the available route for securely reading files that are not to b
 
 ## How does it work
 
-The admin_common_secured_file_image_reader route is linked to a controller called SecuredFileReaderController. If a file is supposed to be an image, this controller will return it with the proper content-type HTTP header, ensuring that the browser does not execute any script it might contain.
+The `admin_common_secured_file_image_reader` route is linked to a controller called `SecuredFileReaderController`. If a file is supposed to be an image, this controller will return it with the proper content-type HTTP header, ensuring that the browser does not execute any script it might contain.
 
 For other types of documents, such as PDFs, Word documents, ZIP files, etc., the file will be downloaded as an attachment, preventing it from being opened in the back office context.
 
