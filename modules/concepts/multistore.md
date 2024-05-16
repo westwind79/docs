@@ -23,7 +23,7 @@ Let's explore how the Blockadvertising module does it. Using this module, you ca
 Here is how it saves a submitted file depending on the store:
 
 ```php
-// Saving only the main portion of the uploaded file's name, without the file extension.
+// Saving only the extension of the uploaded file.
 Configuration::updateValue(
     'BLOCKADVERT_IMG_EXT',
     substr($_FILES['adv_img']['name'], strrpos($_FILES['adv_img']['name'], '.') + 1)
@@ -36,16 +36,16 @@ $this->adv_imgname = 'advertising';
 // If the context is the current group, use the image named 'advertising-g'
 // If the context is the current store, use the image named 'advertising-s'
 if (Shop::getContext() == Shop::CONTEXT_GROUP) {
-    $this->adv_imgname = 'advertising'.'-g'.(int)$this->context->shop->getContextShopGroupID();
+    $this->adv_imgname = 'advertising' . '-g' . (int)$this->context->shop->getContextShopGroupID();
 }
 elseif (Shop::getContext() == Shop::CONTEXT_SHOP) {
-    $this->adv_imgname = 'advertising'.'-s'.(int)$this->context->shop->getContextShopID();
+    $this->adv_imgname = 'advertising' . '-s' . (int)$this->context->shop->getContextShopID();
 }
 
 // Copying the image in the module directory with its new contextual name.
 if (!move_uploaded_file(
     $_FILES['adv_img']['tmp_name'],
-    _PS_MODULE_DIR_.$this->name.'/'.$this->adv_imgname.'.'.Configuration::get('BLOCKADVERT_IMG_EXT'))
+    _PS_MODULE_DIR_ . $this->name . '/' . $this->adv_imgname . '.' .Configuration::get('BLOCKADVERT_IMG_EXT'))
 ) {
     $errors .= $this->l('File upload error.');
 }
