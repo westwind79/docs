@@ -85,19 +85,4 @@ consider it was run without failure.
 
 ### Applying changes
 
-Applying the changes on your database can be done:
-
-* by reinstalling the shop
-* from a previous version of PrestaShop, by copying the new files and calling
-the PHP script [/upgrade/upgrade.php](https://github.com/PrestaShop/autoupgrade/blob/dev/upgrade/upgrade.php)
-
-PrestaShop lists the upgrade files waiting to be applied, by selecting the names
-fitting between the configuration property `PS_VERSION_DB` and the constant
-`_PS_INSTALL_VERSION_` defined in `install/install_version.php`.
-
-In the top of this page, we talked about entities being managed only by
-Doctrine. Applying the changes on the database is done with the following command:
-
-```
-php bin/console prestashop:schema:update-without-foreign
-```
+Applying the changes is covered in [the upgrade page]({{< ref "/8/basics/keeping-up-to-date/upgrade#database-upgrade" >}}).
