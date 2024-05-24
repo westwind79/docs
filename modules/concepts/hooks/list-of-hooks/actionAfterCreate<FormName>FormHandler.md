@@ -7,7 +7,7 @@ files:
         url: 'https://github.com/PrestaShop/PrestaShop/blob/8.0.x/src/Core/Form/IdentifiableObject/Handler/FormHandler.php'
         file: src/Core/Form/IdentifiableObject/Handler/FormHandler.php
 locations:
-    - 'front office'
+    - 'back office'
 type: action
 hookAliases: 
 hasExample: true
