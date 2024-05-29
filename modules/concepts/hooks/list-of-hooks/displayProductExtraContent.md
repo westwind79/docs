@@ -6,7 +6,7 @@ files:
     - 
         theme: classic
         url: 'https://github.com/PrestaShop/classic-theme/blob/develop/templates/catalog/product.tpl#L216'
-        file: 'templates/catalog/product.tml'
+        file: 'templates/catalog/product.tpl'
     -
         url: 'https://github.com/PrestaShop/PrestaShop/blob/8.0.x/src/Core/Product/ProductExtraContent.php'
         file: 'src/Core/Product/ProductExtraContent.php'
