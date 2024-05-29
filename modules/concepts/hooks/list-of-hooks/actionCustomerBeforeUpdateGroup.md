@@ -8,6 +8,7 @@ files:
         file: classes/Customer.php
 locations:
     - 'front office'
+    - 'back office'
 type: action
 hookAliases: 
 array_return: false
