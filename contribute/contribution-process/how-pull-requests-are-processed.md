@@ -36,6 +36,10 @@ If something is wrong, Prestonbot will write a comment in the pull request to te
 
 Issuebot (based on the [probot framework](https://github.com/probot/probot)) is another bot that automates our issue/PR workflow. It will make sure your Pull Request metadata, such as labels or Kanban cards, are valid.
 
+### “Needs Autoupgrade PR” automated label
+
+If your Pull Request modifies the database structure, adds new configuration fields, or is automatically assigned with the “Needs Autoupgrade PR” label, you must create a corresponding PR for the Autoupgrade module. For more information on this process, see Contributions to the [Autoupgrade module][1].
+
 ## The code review
 
 Your Pull Request will be reviewed by a Core maintainer.
@@ -84,3 +88,5 @@ After the Pull Request has finally passed the QA validation, it is merged in the
 ---
 
 _(This article was originally published on our blog: [What Happens To Pull Requests After They Are Submitted](https://build.prestashop-project.org/news/the-review-process/))_
+
+[1]: {{< relref "/9/contribute/contribution-guidelines/upgrade-module" >}}

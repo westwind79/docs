@@ -1,5 +1,5 @@
 ---
-title: Upgrade Contributions
+title: Contributions to the Autoupgrade module
 weight: 60
 ---
 
@@ -17,15 +17,14 @@ It is essential to keep the upgrade process up to date according to the changes 
 
 ## How to determine which content is affected and what needs to be added ?
 
-When there's a modification to the `db-structure.sql` file or if a Doctrine entity has been modified, added, or deleted, it impacts the database structure. Modifying the list of hooks and feature flags has consequences on the upgrade process as well.
+When there's a modification to the `db-structure.sql` file or if a Doctrine entity has been modified, added, or deleted, it impacts the database structure. Modifying the list of hooks, feature flags, new configurations (or generally new base fixtures) has consequences on the upgrade process as well.
 
 These changes can affect how the application interacts with the database and how upgrade procedures are handled.
 
 It's important to consider these aspects when contributing to ensure a smooth upgrade experience for users.
 
 {{% notice tip %}}
-The Core command prestashop:schema:update-without-foreign allows you to update the database according to modifications made to the Doctrine entities during the development phase. It outputs the queries executed for each change detected.
-Please note, after restarting the command the requests will have already been executed and the output will be empty.
+The core command `prestashop:schema:update-without-foreign --dump-sql` allows you to retrieve the queries needed to update the database according to changes made to the Doctrine entities.
 
 It is also possible to retrieve a diff of SQL dumps made in the summary of the GitHub actions `Check the label 'Needs autoupgrade PR'` if the label was added automatically.
 {{% /notice %}}
@@ -34,8 +33,7 @@ It is also possible to retrieve a diff of SQL dumps made in the summary of the G
 
 Also known as the “1-click upgrade module”, the autoupgrade module is responsible for running the upgrade process on PrestaShop stores. This is likely where upgrade migration files must be added where the pull-request is labeled with 'Needs autoupgrade PR'.
 
-Contributions related to the upgrade process should be targeted towards the [Autoupgrade repository](https://github.com/PrestaShop/autoupgrade).
-
+Contributions related to the upgrade process should be targeted towards the [Autoupgrade repository](https://github.com/PrestaShop/autoupgrade), and more specifically in one of these [upgrade scripts](https://github.com/PrestaShop/autoupgrade/tree/dev/upgrade/sql).
 Reading the Project Modules section will explain the basics of contributing to the [PrestaShop module][1]
 
 ## Changes related to modules
