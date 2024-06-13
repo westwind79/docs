@@ -34,7 +34,7 @@ You can use our [system requirements tool](https://github.com/PrestaShop/php-ps-
 
 You'll get a web page detailing requirements and recommendations, and how your server does compared to them:
 
-{{< figure src="../img/phppsinfo.jpg" title="System requirements tool" >}}
+{{< figure src="../img/phppsinfo.png" title="System requirements tool" >}}
 
 ## PHP requirements
 
