@@ -88,6 +88,7 @@ FormFieldToggler             | 8.0.0
 IframeClient                 | 8.0.0
 ModifyAllShopsCheckbox       | 8.0.0
 ChangePasswordControl        | 8.0.0
+EntitySearchInput            | 8.1.7
 
 
 ## Grid component
