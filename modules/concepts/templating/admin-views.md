@@ -26,7 +26,7 @@ First we need to identify which Twig template(s) is (are) rendered. Using the *D
 ### Override the template in the module: a simple "Hello world!"
 
 Now we have found the right template, let's override it inside a module.
-In a module called `foo` let's create the related template. As the template is located inside the `PrestaShop/Admin/Product/CatalogPage` folder, we need to create the same path.
+In a module called `foo` let's create the related template. Since the original template is located inside the `src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage` folder, we need to create the same path into our module, but with a small difference: This part `src/PrestaShopBundle/Resources/views` is replaced by the `PrestaShop` namespace and the final path is `modules/foo/views/PrestaShop/Admin/Product/CatalogPage`.
 
 So Let's create a file named `catalog.html.twig` in the `modules/foo/views/PrestaShop/Admin/Product/CatalogPage/catalog.html.twig` folder: we could re-use the one in the `src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage` folder, but let's start with a very simple override.
 
