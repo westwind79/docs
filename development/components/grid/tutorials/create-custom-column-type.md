@@ -28,7 +28,7 @@ final class HtmlColumn extends AbstractColumn
      */
     public function getType()
     {
-        return 'html';
+        return 'customhtml';
     }
 
     /**
@@ -75,7 +75,7 @@ Then inside the getColumns function among other columns, you are welcome to use 
 ## Step 3. Define the respective .html.twig
 Let's assume that we need to make an html column to fire some js script. Create the following file:
 
-```/modules/your_cool_module/views/PrestaShop/Admin/Common/Grid/Columns/Content/html.html.twig```
+```/modules/your_cool_module/views/PrestaShop/Admin/Common/Grid/Columns/Content/customhtml.html.twig```
 
 ```<a href="#">{{ record[column.options.field] }}</a>```
 
