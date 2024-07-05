@@ -285,7 +285,7 @@ The icon file must respect these requirements:
 {{% notice tip %}}
 There are many free icon libraries available on the web. Here are a few: 
 
-- [Facow's Farm Fresh Web Icons](https://www.fatcow.com/free-icons)
+- [Facow's Farm Fresh Web Icons](https://github.com/gammasoft/fatcow)
 - [Danish Royalty Free](https://iconarchive.com/show/danish-royalty-free-icons-by-jonas-rask.html)
 {{% /notice %}}
 
