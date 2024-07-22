@@ -36,10 +36,10 @@ If you upgrade to another version of PrestaShop 1.6, the release files
 can be found in a [dedicated archives list](https://www.prestashop.com/en/previous-versions?version=1.6).
 
 Download can also be done in command line, as done here with the version
-1.7.7.5:
+1.7.8.11:
 
 ```bash
-wget -O prestashop-upgrade.zip https://www.prestashop.com/download/old/prestashop_1.7.7.5.zip
+wget -O prestashop-upgrade.zip https://github.com/PrestaShop/PrestaShop/releases/download/1.7.8.11/prestashop_1.7.8.11.zip
 ```
 
 ### Archive extraction
@@ -52,10 +52,10 @@ zip file itself, which must be extracted as well.
 On a Linux terminal, you can use the command \`unzip\`:
 
 ```bash
-unzip prestashop-upgrade.zip && unzip prestashop.zip
+unzip prestashop-upgrade.zip && unzip prestashop.zip -d upgrade
 ```
 
-Once you have the folders like `classes/`, `modules/`, `themes/`, etc. you may
+Once you have the folders like `classes/`, `modules/`, `themes/` inside the upgrade-directory, etc. you may
 go on the next step.
 
 ### Sample files cleanup
