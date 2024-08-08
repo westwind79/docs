@@ -7,7 +7,7 @@ useMermaid: true
 # CSS variables reference
 
 Discover the a summary of the main CSS variable avaibles trought the PrestaShop UI Kit.
-- {{< extlink "https://github.com/PrestaShop/prestashop-ui-kit/blob/1c255d96d79c69e2d3e0dd1712f76379941c06bb/scss/_root.scss#L122" >}}See exposed CSS variables{{< /extlink >}}
+- <a href="https://github.com/PrestaShop/prestashop-ui-kit/blob/1c255d96d79c69e2d3e0dd1712f76379941c06bb/scss/_root.scss#L122" target="_blank">See exposed CSS variables</a>
 
 ## Colors
 
@@ -200,7 +200,7 @@ These variables should be used for fonts family in the BO.
 
 These variables can be used when you want to apply sizing or spacing on the BO.
 
-- {{< extlink "https://github.com/PrestaShop/prestashop-ui-kit/blob/1c255d96d79c69e2d3e0dd1712f76379941c06bb/scss/_root.scss#L74" >}}See available sizing variables{{< /extlink >}}
+- <a href="https://github.com/PrestaShop/prestashop-ui-kit/blob/1c255d96d79c69e2d3e0dd1712f76379941c06bb/scss/_root.scss#L74" target="_blank">See available sizing variables</a>
 
 **Explanation:**
 

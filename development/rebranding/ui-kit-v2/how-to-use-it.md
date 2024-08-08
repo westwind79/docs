@@ -8,7 +8,7 @@ useMermaid: true
 
 To maintain consistency across the PrestaShop back office, the introduction of new CSS variables in `_root.scss` plays a important role. This guide will show you how to effectively utilize these variables in both PrestaShop v9 and older versions.
 
-- {{< extlink "https://github.com/PrestaShop/prestashop-ui-kit/blob/1c255d96d79c69e2d3e0dd1712f76379941c06bb/scss/_root.scss#L122" >}}See exposed CSS variables{{< /extlink >}}
+- <a href="https://github.com/PrestaShop/prestashop-ui-kit/blob/1c255d96d79c69e2d3e0dd1712f76379941c06bb/scss/_root.scss#L122" target="_blank">See exposed CSS variables</a>
 - [More information about PrestaShop UI Kit][ps-ui-kit]
 
 ## Using CSS variables with v9 and higher
@@ -35,7 +35,7 @@ Here’s how you can apply these variables in your CSS or SCSS:
 
 `--cdk-primary-800` is a CSS variable defined in `_root.scss`. It ensures that the color applied to `.my-block` remains consistent with the new design. These variables refer to specific color values that stay uniform across the back office, helping maintain design consistency.
 
-**Tip:** Always refer to `_root.scss` for the most up-to-date {{< extlink "https://github.com/PrestaShop/prestashop-ui-kit/blob/1c255d96d79c69e2d3e0dd1712f76379941c06bb/scss/_root.scss#L122" >}}list of available variables{{< /extlink >}}. This ensures you use the correct variables for your styling needs and that your design aligns with the latest updates.
+**Tip:** Always refer to `_root.scss` for the most up-to-date <a href="https://github.com/PrestaShop/prestashop-ui-kit/blob/1c255d96d79c69e2d3e0dd1712f76379941c06bb/scss/_root.scss#L122" target="_blank">list of available variables</a>. This ensures you use the correct variables for your styling needs and that your design aligns with the latest updates.
 
 ## Using CSS variables with older versions
 

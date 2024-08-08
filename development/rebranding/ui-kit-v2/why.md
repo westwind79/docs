@@ -10,7 +10,7 @@ The PrestaShop UI Kit has been fully rebranded and is available starting from **
 
 The `_root.scss` file serves as a single source of truth for CSS variables, ensuring consistency in the Back Office design. All UI Kit components have been updated to work with this new set of variables, and Bootstrap has been recompiled to maintain component functionality.
 
-{{< extlink "https://github.com/PrestaShop/prestashop-ui-kit/blob/1c255d96d79c69e2d3e0dd1712f76379941c06bb/scss/_root.scss#L122" >}}See exposed CSS variables{{< /extlink >}}
+<a href="https://github.com/PrestaShop/prestashop-ui-kit/blob/1c255d96d79c69e2d3e0dd1712f76379941c06bb/scss/_root.scss#L122" target="_blank">See exposed CSS variables</a>
 
 ## Why rebrand the UI Kit?
 
