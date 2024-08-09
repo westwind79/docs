@@ -14,7 +14,7 @@ The `_root.scss` file serves as a single source of truth for CSS variables, ensu
 
 ## Why rebrand the UI Kit?
 
-The rebranding of the PrestaShop back office necessitated a comprehensive update to the UI Kit. Here’s why:
+The rebranding of the PrestaShop back office required a comprehensive update to the UI Kit. Here’s why:
 
 - **Introduction of CSS variables:** We created a new version of the UI Kit (v2) that includes a newly defined set of CSS variables. These variables, now exposed within the BO, align the UI Kit with the new PrestaShop brand design.
 
