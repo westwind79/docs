@@ -1,13 +1,13 @@
 ---
 title: CSS variables reference
-weight: 66
-useMermaid: true
+weight: 62
 ---
 
 # CSS variables reference
 
-Discover the a summary of the main CSS variable avaibles trought the PrestaShop UI Kit.
-- <a href="https://github.com/PrestaShop/prestashop-ui-kit/blob/1c255d96d79c69e2d3e0dd1712f76379941c06bb/scss/_root.scss#L122" target="_blank">See exposed CSS variables</a>
+Discover a summary of the main CSS variables available through the PrestaShop UI Kit.
+
+- <a href="https://github.com/PrestaShop/prestashop-ui-kit/blob/develop/scss/_root.scss" target="_blank">See exposed CSS variables</a>
 
 ## Colors
 
