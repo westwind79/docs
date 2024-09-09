@@ -361,7 +361,7 @@ class MyCustomPdfGenerator extends Module
         $pdfGen->startPageGroup();
         $pdfGen->createHeader($this->getHeader($myCustomSlipVarsForPdfHeader));
         $pdfGen->createFooter($this->getFooter($myCustomSlipVarsForPdfFooter));
-        $pdfGen->createContent($this->getPdfContent($myCustomSlipVarsForPdfHeader));
+        $pdfGen->createContent($this->getPdfContent($myCustomSlipVarsForPdfContent));
         $pdfGen->writePage();
         $pdfGen->render('my_custom_pdf.pdf', 'D');
    }
