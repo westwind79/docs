@@ -1,6 +1,8 @@
 ---
 title: UI Kit
 weight: 61
+aliases: 
+  - /9/development/uikit
 ---
 
 # What's the PrestaShop UIKit?

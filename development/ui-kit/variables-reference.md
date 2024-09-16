@@ -211,4 +211,3 @@ These variables can be used when you want to apply sizing or spacing on the BO.
   ...
 }
 ```
-{{% children /%}}

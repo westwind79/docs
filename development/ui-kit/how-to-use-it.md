@@ -1,15 +1,15 @@
 ---
-title: How to use it ?
+title: How to use it?
 weight: 63
 ---
 
-# How to use new set of CSS variables ?
+# How to use a new set of CSS variables?
 
-To maintain consistency across the PrestaShop back office, CSS variables have been introduced in `_root.scss`. This guide explains how to use these variables in PrestaShop.
+To maintain consistency across the PrestaShop back office, CSS variables have been introduced in `_root.scss`. This guide explains how to use them.
 
-## Using CSS variables with v9 and higher
+## Using CSS variables in PrestaShop 9.0+
 
-In PrestaShop v9 and higher, use the CSS variables introduced in `_root.scss` for consistent styling in the Back Office.
+In PrestaShop v9 and later, we use the CSS variables introduced in `_root.scss` for consistent styling in the back office.
 
 ### Usage Example
 
@@ -28,7 +28,9 @@ In PrestaShop v9 and higher, use the CSS variables introduced in `_root.scss` fo
 **Note:**
 
 - `--cdk-primary-800` is a CSS variable defined in `_root.scss`. It ensures consistent color application across the back office.
-- Refer to `_root.scss` for the latest <a href="https://github.com/PrestaShop/prestashop-ui-kit/blob/develop/scss/_root.scss" target="_blank">list of available variables</a>.
+- [List of available CSS variables][variables-list]
+
+[variables-list]: {{< ref "/9/development/ui-kit/variables-reference.md" >}}
 
 ## Using CSS variables with older versions
 
@@ -51,5 +53,3 @@ For PrestaShop versions without the UI Kit v2, use fallbacks to ensure compatibi
 **Note:**
 
 - Fallback values (e.g., `#1b1c1d`) ensure functionality in versions without the new UI Kit v2.
-
-{{% children /%}}
