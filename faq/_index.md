@@ -1,14 +1,14 @@
 ---
 title: Frequently Asked Questions
 menuTitle: FAQ
-weight: 10
-pre: "<b>10. </b>"
+weight: 11
+pre: "<b>11. </b>"
 chapter: true
 showOnHomepage: true
 icon: 'images/icons/faq.svg'
 ---
 
-### Chapter 10
+### Chapter 11
 
 # Frequently Asked Questions
 

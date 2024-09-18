@@ -1,13 +1,13 @@
 ---
 title: Contribute
-weight: 7
-pre: "<b>7. </b>"
+weight: 8
+pre: "<b>8. </b>"
 chapter: true
 showOnHomepage: true
 icon: 'images/icons/contribute.svg'
 ---
 
-### Chapter 7
+### Chapter 8
 
 # Contribute
 
