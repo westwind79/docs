@@ -1,3 +1,8 @@
+---
+title: Adding a new hook
+weight: 3
+---
+
 # How to add a new Hook
 Adding a new hook is a process that can be done in only three steps.
 
