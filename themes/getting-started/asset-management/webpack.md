@@ -26,7 +26,7 @@ Webpack compiles and minifies all this JavaScript code into a single file, which
 
 If you want to compile your assets using Webpack (and we advise you to), follow these steps:
 
-1. Download and install [Node.js](https://nodejs.org/), which contains the npm tool.
+1. Download and install [Node.js 20.x](https://nodejs.org/), which contains the npm tool.
 2. In your command line tool, open the `_dev` folder.
 3. Install npm: `npm install`.
 4. You then have a choice:
