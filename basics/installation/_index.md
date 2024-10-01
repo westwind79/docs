@@ -205,7 +205,7 @@ make composer
 ##### JavaScript and CSS dependencies
 
 PrestaShop uses `NPM` to manage dependencies and [`Webpack`][webpack] to compile them into static assets. 
-You only need `NodeJS 16.x` ([you can get it here][nodejs]), and NPM will take care of it all.
+You only need `NodeJS 20.x` ([you can get it here][nodejs]), and NPM will take care of it all.
 
 ```bash
 cd /path/to/prestashop

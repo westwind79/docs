@@ -15,7 +15,7 @@ Here is a list of compatibility:
 
 | PrestaShop Versions | NodeJS Versions | NPM Versions |
 |---------------------|-----------------|--------------|
-| 9.x                 | 16.x            | 8.x          |
+| 9.x                 | 20.x            | 8.x          |
 
 If you can not manage to compile assets, you may be using an older version of PrestaShop. We strongly recommend you to install a package such as ['n'](https://www.npmjs.com/package/n?activeTab=versions) or [nvm](https://github.com/nvm-sh/nvm) to try with an older version of NodeJS.
 
