@@ -38,10 +38,10 @@ mechanism from the upgrade assistant module.
 
 The first step is to download the latest version on https://github.com/PrestaShop/PrestaShop/releases.
 
-Download can also be done in command line, as done here with the version 8.0.2:
+Download can also be done in command line, as done here with the version 8.1.7:
 
 ```bash
-wget -O prestashop-upgrade.zip https://github.com/PrestaShop/PrestaShop/releases/download/8.0.2/prestashop_8.0.2.zip
+wget -O prestashop-upgrade.zip https://github.com/PrestaShop/PrestaShop/releases/download/8.1.7/prestashop_8.1.7.zip
 ```
 
 ### Archive extraction
@@ -53,7 +53,7 @@ Note starting from PrestaShop 1.7.0.0, the release package contains a zip file i
 On a Linux terminal, you can use the command \`unzip\`:
 
 ```bash
-unzip prestashop-upgrade.zip && unzip prestashop.zip
+unzip prestashop-upgrade.zip && unzip prestashop.zip -d upgrade
 ```
 
 If asked to overwrite the index.php file, answer yes.
@@ -67,8 +67,6 @@ Avoid overwrite the production resources (images, conf ...) with the default dat
 - prestashop.zip
 - img/
 - override/
-- install/
-- modules/
 
 {{% notice warning %}}
 All the other files present in the new release will overwrite the existing files. 
@@ -112,13 +110,13 @@ You will get warnings that files already exists in the destination folder. Choos
 On linux, the copy can be done in your terminal:
 
 ```bash
-cp -R <path_to_the_new_release>/* <path_to_the_current_shop>/
+cp -rf <path_to_the_new_release>/* <path_to_the_current_shop>/
 ```
 
 Example:
 
 ```bash
-cp -R ~/Downloads/prestashop/* /var/www/html/
+cp -rf ~/Downloads/upgrade/* /var/www/html/
 ```
 
 ### Database upgrade
