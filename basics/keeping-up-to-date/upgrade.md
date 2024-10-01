@@ -109,13 +109,13 @@ destination folder. Choose “overwrite” to continue.
 On linux, the copy can be done in your terminal:
 
 ```bash
-cp -R <path_to_the_new_release>/* <path_to_the_current_shop>/
+cp -rf <path_to_the_new_release>/* <path_to_the_current_shop>/
 ```
 
 Example:
 
 ```bash
-cp -R ~/Downloads/prestashop/* /var/www/html/
+cp -rf ~/Downloads/prestashop/* /var/www/html/
 ```
 
 ### Database upgrade
