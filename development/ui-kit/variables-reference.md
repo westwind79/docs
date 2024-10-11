@@ -60,20 +60,20 @@ These variables should be used when you want to apply a color on the BO.
   <!-- RED -->
   <tr>
     <td rowspan="5">Red</td>
-    <td style="background:#a41913;color:white;">--cdk-red-900</td>
+    <td style="background:#a41913;color:white;">--cdk-red-700</td>
     <td rowspan="5">Alert, Destructive, Danger elements</td>
   </tr>
   <tr>
-    <td style="background:#ba151a;color:white;">--cdk-red-800</td>
+    <td style="background:#ba151a;color:white;">--cdk-red-500</td>
   </tr>
   <tr>
-    <td style="background:#d63f3c;color:white;">--cdk-red-700</td>
+    <td style="background:#d63f3c;color:white;">--cdk-red-300</td>
   </tr>
   <tr>
-    <td style="background:#fdbfbf;color:black;">--cdk-red-600</td>
+    <td style="background:#fdbfbf;color:black;">--cdk-red-100</td>
   </tr>
   <tr>
-    <td style="background:#ffe4e6;color:black;">--cdk-red-500</td>
+    <td style="background:#ffe4e6;color:black;">--cdk-red-50</td>
   </tr>
   <!-- PURPLE -->
   <tr>
