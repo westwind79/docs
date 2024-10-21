@@ -15,7 +15,7 @@ This label is the result of verifications executed on each pull request, where a
 
 It is essential to keep the upgrade process up to date according to the changes made to the Core to ensure the proper functioning of upgrades for different versions of PrestaShop.
 
-## How to determine which content is affected and what needs to be added ?
+## How do we determine which content is affected and what needs to be added?
 
 When there's a modification to the `db-structure.sql` file or if a Doctrine entity has been modified, added, or deleted, it impacts the database structure. Modifying the list of hooks, feature flags, new configurations (or generally new base fixtures) has consequences on the upgrade process as well.
 
@@ -31,7 +31,7 @@ It is also possible to retrieve a diff of SQL dumps made in the summary of the G
 
 ## Autoupgrade Module contribution
 
-Also known as the “1-click upgrade module”, the autoupgrade module is responsible for running the upgrade process on PrestaShop stores. This is likely where upgrade migration files must be added where the pull-request is labeled with 'Needs autoupgrade PR'.
+Also known as the “1-click upgrade module”, the autoupgrade module is responsible for running the upgrade process on PrestaShop stores. This is when upgrade migration files should be added if the pull request is labeled “Needs Autoupgrade PR.”
 
 Contributions related to the upgrade process should be targeted towards the [Autoupgrade repository](https://github.com/PrestaShop/autoupgrade), and more specifically in one of these [upgrade scripts](https://github.com/PrestaShop/autoupgrade/tree/dev/upgrade/sql).
 Reading the Project Modules section will explain the basics of contributing to the [PrestaShop module][1]
