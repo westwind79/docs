@@ -132,7 +132,7 @@ If no issue is linked to your Pull Request, maintainers might ask you to create 
 
 This field should contain links to related PRs in other repositories.
 
-If your Pull Request modifies database structure or adds new configuration fields, you should also provide a PR for [autoupgrade module](https://github.com/PrestaShop/autoupgrade).
+If your Pull Request modifies the database structure, adds new configuration fields, or is automatically assigned with the “Needs Autoupgrade PR” label, you must create a corresponding PR for the Autoupgrade module. For more information on this process, see Contributions to the [Autoupgrade module][1].
 
 If your Pull Request needs a theme change to work, you should provide [hummingbird](https://github.com/PrestaShop/hummingbird) and [classic-theme](https://github.com/PrestaShop/classic-theme) PR.
 
@@ -149,3 +149,5 @@ Including automated tests (unit, integration or functional) that verify your cha
 ### Possible impacts
 
 PrestaShop's QA team will not only verify the right behavior of your change but also verify that other related parts of the software are still working as expected. For example modifying a CSS class can disrupt the display of all the web pages which rely on it. Please mention all the impacts you are aware of that need to be checked in order to help QA team find and verify all of them. 
+
+[1]: {{< relref "/9/contribute/contribution-guidelines/upgrade-module" >}}
