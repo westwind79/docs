@@ -25,7 +25,7 @@ First, be aware that there are several ways to scale any application, PrestaShop
 
 The most used one is called vertical scaling, where you boost your server's performance : you add some RAM, some CPU, increase the disks IOs performances, and so on. It can be quick and easy if your hoster allows it and does not require any change in your application setup and configuration.
 
-However, this method is not the most efficient one, as doubling the server's resources will not necessarily double its oberved performances.
+However, this method is not the most efficient one, as doubling the server's resources will not necessarily double its observed performances.
 
 In addition, the monetary cost of vertical scaling may not be linear. Depending on your hosting company, your mileage may vary.
 
